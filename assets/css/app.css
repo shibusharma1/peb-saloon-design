@@ -12,6 +12,19 @@
 
   --footer: #4a1d38;
 }
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+
+
 .heading-font {
   font-family: "Playfair Display", serif;
 }
@@ -121,6 +134,10 @@
 
 .nav-link:hover::after {
   width: 100%;
+}
+
+main {
+    padding-top: 96px;
 }
 
 section {

@@ -76,7 +76,7 @@ include './includes/header.php'
                 </p>
                 <!-- Features -->
                 <div
-                    class="grid grid-cols-1 sm:grid-cols-2 gap-5 mt-10">
+                    class="grid grid-cols-2 gap-4 sm:gap-5 mt-10">
                     <div class="flex items-center gap-3">
                         <div
                             class="w-10 h-10 rounded-full bg-[#C48B5F]/10 flex items-center justify-center">
@@ -115,7 +115,7 @@ include './includes/header.php'
                     </div>
                 </div>
                 <!-- Button -->
-                <div class="mt-12">
+                <div class="text-center mt-12">
                     <a href="#"
                         class="inline-flex items-center gap-3 px-8 py-4 rounded-full btn-primary text-white font-semibold shadow-lg hover:scale-105 transition">
                         Read More
@@ -126,6 +126,7 @@ include './includes/header.php'
         </div>
     </div>
 </section>
+
 <section class="section-light">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <!-- Heading -->

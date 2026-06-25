@@ -31,6 +31,7 @@
     <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css">
     <link rel="stylesheet" href="./assets/css/app.css">
+    <link rel="stylesheet" href="./assets/css/pricing.css">
     <style>
         body {
             font-family: 'Inter', sans-serif;
@@ -115,8 +116,18 @@
             class="absolute right-0 top-0 h-full w-[300px] bg-white shadow-2xl transform translate-x-full transition-transform duration-300">
             <!-- Header -->
             <div class="flex items-center justify-between p-6 border-b">
-                <h4 class="heading-font text-2xl text-primary" data-aos="fade-up">
-                    <img src="./assets/img/logo-white-2.png" alt="Logo" loading="lazy">
+                <h4 class="heading-font text-xl text-primary" data-aos="fade-up">
+                    <a href="./" class="flex items-center gap-3">
+                        <img src="./assets/img/favicon.png" class="h-14">
+                        <div>
+                            <h3 class="heading-font text-xl text-primary">
+                                Elegance Beauty
+                            </h3>
+                            <p class="text-xs tracking-[4px] uppercase text-muted">
+                                Professional Salon
+                            </p>
+                        </div>
+                    </a>
                 </h4>
                 <button id="closeMenu">
                     <i class="ri-close-line text-3xl"></i>
@@ -154,3 +165,4 @@
             </nav>
         </div>
     </div>
+    <main>

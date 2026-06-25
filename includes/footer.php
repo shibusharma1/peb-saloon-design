@@ -20,9 +20,17 @@
         <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
             <!-- Brand -->
             <div>
-                <img src="./assets/img/logo-white-2.png"
-                    alt="Professional Elegance Beauty"
-                    class="h-16 mb-6">
+                <a href="./" class="flex items-center gap-3 mb-6">
+                    <img src="./assets/img/favicon.png" class="h-14">
+                    <div>
+                        <h3 class="heading-font text-xl text-primary">
+                            Elegance Beauty
+                        </h3>
+                        <p class="text-xs tracking-[4px] uppercase text-muted">
+                            Professional Salon
+                        </p>
+                    </div>
+                </a>
                 <p class="text-gray-400 leading-8">
                     Experience luxury beauty treatments, skincare,
                     wellness therapies and professional salon services
@@ -126,7 +134,7 @@
         <!-- Payment Section -->
         <div class="mt-8 pt-6 border-t border-white/10">
             <div class="flex flex-col md:flex-row items-center justify-between gap-8">
-                <div>
+                <div class="text-center sm:text-left flex flex-col items-center sm:items-start">
                     <h4 class="text-xl font-semibold mb-4">
                         We Accept
                     </h4>
@@ -157,15 +165,18 @@ include './includes/backtotop.php';
 <script src="./assets/js/mobilemenu.js"></script>
 <script src="./assets/js/backtotop.js"></script>
 <script src="./assets/js/herotext-typewriter.js"></script>
+<script src="./assets/js/pricing.js"></script>
 <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 
 <script>
-AOS.init({
-    duration:1000,
-    once:true,
-    offset:120
-});
+    AOS.init({
+        duration: 1000,
+        once: true,
+        offset: 120
+    });
 </script>
+
+</main>
 </body>
 
 </html>
