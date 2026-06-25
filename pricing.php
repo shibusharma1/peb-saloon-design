@@ -1,7 +1,6 @@
 <?php
-include './includes/header.php'
-?>
-
+    include './includes/header.php'
+    ?>
 <section class="pt-42 relative h-[280px] lg:h-[340px] overflow-hidden mb-8">
     <!-- Background Image -->
     <img
@@ -26,8 +25,8 @@ include './includes/header.php'
                 <!-- Badge -->
                 <span
                     class="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-white/10 backdrop-blur-md text-white text-sm uppercase tracking-[2px]">
-                    <i class="ri-price-tag-3-line"></i>
-                    Professional Beauty Treatments
+                <i class="ri-price-tag-3-line"></i>
+                Professional Beauty Treatments
                 </span>
                 <!-- Title -->
                 <h1
@@ -45,7 +44,6 @@ include './includes/header.php'
         </div>
     </div>
 </section>
-
 <!-- Categories Section -->
 <div class="sticky top-24 z-40 bg-white/95 backdrop-blur-xl border-b border-gray-100 shadow-sm">
     <div
@@ -54,36 +52,35 @@ include './includes/header.php'
             class="flex lg:justify-center lg:flex-wrap gap-3 overflow-x-auto py-5 whitespace-nowrap scrollbar-hide">
             <a href="#threading"
                 class="price-nav active-price-nav">
-                Threading
+            Threading
             </a>
             <a href="#waxing"
                 class="price-nav">
-                Waxing
+            Waxing
             </a>
             <a href="#facial"
                 class="price-nav">
-                Facial
+            Facial
             </a>
             <a href="#nails"
                 class="price-nav">
-                Nails
+            Nails
             </a>
             <a href="#massage"
                 class="price-nav">
-                Massage
+            Massage
             </a>
             <a href="#eyelashes"
                 class="price-nav">
-                Eyelashes
+            Eyelashes
             </a>
             <a href="#ipl"
                 class="price-nav">
-                IPL
+            IPL
             </a>
         </div>
     </div>
 </div>
-
 <section id="threading" class="Section-light">
     <div class="max-w-5xl mx-auto px-4">
         <div
@@ -106,35 +103,34 @@ include './includes/header.php'
                     class="flex justify-between items-center p-6 border-b hover:bg-[var(--bg-light)] transition duration-300">
                     <span class="font-medium text-[var(--text-dark)]">Eyebrow Shape</span>
                     <strong class="text-primary text-xl lg:text-2xl font-bold">
-                        £8
+                    £8
                     </strong>
                 </div>
                 <div
                     class="flex justify-between items-center p-6 border-b hover:bg-[var(--bg-light)] transition duration-300">
                     <span class="font-medium text-[var(--text-dark)]">Upper Lip</span>
                     <strong class="text-primary text-xl lg:text-2xl font-bold">
-                        £4
+                    £4
                     </strong>
                 </div>
                 <div
                     class="flex justify-between items-center p-6 border-b hover:bg-[var(--bg-light)] transition duration-300">
                     <span class="font-medium text-[var(--text-dark)]">Forehead</span>
                     <strong class="text-primary text-xl lg:text-2xl font-bold">
-                        £6
+                    £6
                     </strong>
                 </div>
                 <div
                     class="flex justify-between items-center p-6 border-b hover:bg-[var(--bg-light)] transition duration-300">
                     <span class="font-medium text-[var(--text-dark)]">Full Face</span>
                     <strong class="text-primary text-xl lg:text-2xl font-bold">
-                        £25
+                    £25
                     </strong>
                 </div>
             </div>
         </div>
     </div>
 </section>
-
 <section id="waxing" class="Section-light">
     <div class="max-w-5xl mx-auto px-4">
         <div
@@ -157,35 +153,34 @@ include './includes/header.php'
                     class="flex justify-between items-center p-6 border-b hover:bg-[var(--bg-light)] transition duration-300">
                     <span class="font-medium text-[var(--text-dark)]">Eyebrow Shape</span>
                     <strong class="text-primary text-xl lg:text-2xl font-bold">
-                        £8
+                    £8
                     </strong>
                 </div>
                 <div
                     class="flex justify-between items-center p-6 border-b hover:bg-[var(--bg-light)] transition duration-300">
                     <span class="font-medium text-[var(--text-dark)]">Upper Lip</span>
                     <strong class="text-primary text-xl lg:text-2xl font-bold">
-                        £4
+                    £4
                     </strong>
                 </div>
                 <div
                     class="flex justify-between items-center p-6 border-b hover:bg-[var(--bg-light)] transition duration-300">
                     <span class="font-medium text-[var(--text-dark)]">Forehead</span>
                     <strong class="text-primary text-xl lg:text-2xl font-bold">
-                        £6
+                    £6
                     </strong>
                 </div>
                 <div
                     class="flex justify-between items-center p-6 border-b hover:bg-[var(--bg-light)] transition duration-300">
                     <span class="font-medium text-[var(--text-dark)]">Full Face</span>
                     <strong class="text-primary text-xl lg:text-2xl font-bold">
-                        £25
+                    £25
                     </strong>
                 </div>
             </div>
         </div>
     </div>
 </section>
-
 <section id="facial" class="Section-light">
     <div class="max-w-5xl mx-auto px-4">
         <div
@@ -208,35 +203,34 @@ include './includes/header.php'
                     class="flex justify-between items-center p-6 border-b hover:bg-[var(--bg-light)] transition duration-300">
                     <span class="font-medium text-[var(--text-dark)]">Eyebrow Shape</span>
                     <strong class="text-primary text-xl lg:text-2xl font-bold">
-                        £8
+                    £8
                     </strong>
                 </div>
                 <div
                     class="flex justify-between items-center p-6 border-b hover:bg-[var(--bg-light)] transition duration-300">
                     <span class="font-medium text-[var(--text-dark)]">Upper Lip</span>
                     <strong class="text-primary text-xl lg:text-2xl font-bold">
-                        £4
+                    £4
                     </strong>
                 </div>
                 <div
                     class="flex justify-between items-center p-6 border-b hover:bg-[var(--bg-light)] transition duration-300">
                     <span class="font-medium text-[var(--text-dark)]">Forehead</span>
                     <strong class="text-primary text-xl lg:text-2xl font-bold">
-                        £6
+                    £6
                     </strong>
                 </div>
                 <div
                     class="flex justify-between items-center p-6 border-b hover:bg-[var(--bg-light)] transition duration-300">
                     <span class="font-medium text-[var(--text-dark)]">Full Face</span>
                     <strong class="text-primary text-xl lg:text-2xl font-bold">
-                        £25
+                    £25
                     </strong>
                 </div>
             </div>
         </div>
     </div>
 </section>
-
 <section id="nails" class="Section-light">
     <div class="max-w-5xl mx-auto px-4">
         <div
@@ -259,35 +253,34 @@ include './includes/header.php'
                     class="flex justify-between items-center p-6 border-b hover:bg-[var(--bg-light)] transition duration-300">
                     <span class="font-medium text-[var(--text-dark)]">Eyebrow Shape</span>
                     <strong class="text-primary text-xl lg:text-2xl font-bold">
-                        £8
+                    £8
                     </strong>
                 </div>
                 <div
                     class="flex justify-between items-center p-6 border-b hover:bg-[var(--bg-light)] transition duration-300">
                     <span class="font-medium text-[var(--text-dark)]">Upper Lip</span>
                     <strong class="text-primary text-xl lg:text-2xl font-bold">
-                        £4
+                    £4
                     </strong>
                 </div>
                 <div
                     class="flex justify-between items-center p-6 border-b hover:bg-[var(--bg-light)] transition duration-300">
                     <span class="font-medium text-[var(--text-dark)]">Forehead</span>
                     <strong class="text-primary text-xl lg:text-2xl font-bold">
-                        £6
+                    £6
                     </strong>
                 </div>
                 <div
                     class="flex justify-between items-center p-6 border-b hover:bg-[var(--bg-light)] transition duration-300">
                     <span class="font-medium text-[var(--text-dark)]">Full Face</span>
                     <strong class="text-primary text-xl lg:text-2xl font-bold">
-                        £25
+                    £25
                     </strong>
                 </div>
             </div>
         </div>
     </div>
 </section>
-
 <section>
     <div class="max-w-6xl mx-auto px-4">
         <div
@@ -314,7 +307,7 @@ include './includes/header.php'
             <div class="relative z-10">
                 <span
                     class="inline-flex px-5 py-2 rounded-full bg-white/10 backdrop-blur">
-                    Professional Elegance Beauty Salon
+                Professional Elegance Beauty Salon
                 </span>
                 <h2
                     class="heading-font text-4xl lg:text-6xl mt-8">
@@ -330,20 +323,19 @@ include './includes/header.php'
                     class="flex flex-wrap justify-center gap-4 mt-10">
                     <a href="#"
                         class="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-white text-primary font-semibold hover:scale-105 transition">
-                        Book Appointment
-                        <i class="ri-arrow-right-line"></i>
+                    Book Appointment
+                    <i class="ri-arrow-right-line"></i>
                     </a>
                     <a href="tel:+441234567890"
                         class="inline-flex items-center gap-2 px-8 py-4 rounded-full border border-white text-white hover:bg-white hover:text-primary transition">
-                        <i class="ri-phone-line"></i>
-                        Call Us
+                    <i class="ri-phone-line"></i>
+                    Call Us
                     </a>
                 </div>
             </div>
         </div>
     </div>
 </section>
-
 <?php
-include './includes/footer.php'
-?>
+    include './includes/footer.php'
+    ?>
