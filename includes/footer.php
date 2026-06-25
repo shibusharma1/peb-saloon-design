@@ -166,6 +166,7 @@ include './includes/backtotop.php';
 <script src="./assets/js/backtotop.js"></script>
 <script src="./assets/js/herotext-typewriter.js"></script>
 <script src="./assets/js/pricing.js"></script>
+<script src="./assets/js/gallery.js"></script>
 <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 
 <script>

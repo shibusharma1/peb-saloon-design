@@ -216,7 +216,7 @@ include './includes/header.php'
                 class="grid lg:grid-cols-2 items-center">
                 <!-- Content -->
                 <div
-                    class="p-8 lg:p-16">
+                    class="order-2 lg:order-1 p-8 lg:p-16">
                     <span
                         class="inline-flex px-4 py-2 rounded-full bg-[#7B234B]/10 text-primary font-semibold text-sm">
                         FEATURED OFFER
@@ -234,7 +234,7 @@ include './includes/header.php'
                     </p>
                     <!-- Features -->
                     <div
-                        class="grid sm:grid-cols-2 gap-4 mt-8">
+                        class="hidden sm:grid sm:grid-cols-2 gap-4 mt-8">
                         <div class="flex items-center gap-3">
                             <i class="ri-check-line text-primary text-xl"></i>
                             <span>90 Minute Session</span>
@@ -267,39 +267,15 @@ include './includes/header.php'
                 </div>
                 <!-- Image -->
                 <div
-                    class="relative h-full">
+                    class="order-1 lg:order-2 relative h-full">
                     <img
                         src="./assets/img/background/bg2.jpg"
                         alt=""
-                        class="w-full h-[350px] lg:h-[100%] object-cover" data-aos="zoom-in-up" data-aos-delay="100">
+                        class="w-full h-[280px] sm:h-[350px] lg:h-full object-cover" data-aos="zoom-in-up" data-aos-delay="100">
                 </div>
             </div>
         </div>
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
-            <div
-                class="group bg-white rounded-[32px] overflow-hidden shadow-lg hover:shadow-2xl transition duration-500">
-                <div class="overflow-hidden">
-                    <img
-                        src="./assets/img/our-services/pic4.jpg"
-                        class="w-full h-72 object-cover group-hover:scale-110 transition duration-700">
-                </div>
-                <div class="p-8">
-                    <h4
-                        class="text-2xl font-semibold" data-aos="fade-up">
-                        Facial Treatment
-                    </h4>
-                    <p
-                        class="mt-4 text-gray-600">
-                        Refresh and brighten your skin with our signature facial.
-                    </p>
-                    <a href="#"
-                        class="inline-flex items-center gap-2 mt-6 text-primary font-semibold">
-                        Learn More
-                        <i class="ri-arrow-right-line"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
+        
     </div>
 </section>
 <?php

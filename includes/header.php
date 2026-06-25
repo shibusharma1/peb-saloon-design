@@ -32,6 +32,8 @@
         href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css">
     <link rel="stylesheet" href="./assets/css/app.css">
     <link rel="stylesheet" href="./assets/css/pricing.css">
+    <link rel="stylesheet" href="./assets/css/gallery.css">
+    <link rel="stylesheet" href="./assets/css/bookappointment.css">
     <style>
         body {
             font-family: 'Inter', sans-serif;
