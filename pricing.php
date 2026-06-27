@@ -1,41 +1,31 @@
 <?php
-    include './includes/header.php'
-    ?>
+include './includes/header.php'
+?>
 <section class="pt-42 relative h-[280px] lg:h-[340px] overflow-hidden mb-8">
-    <!-- Background Image -->
-    <img
-        src="./assets/img/pricing-banner.jpg"
+    <img src="./assets/img/pricing-banner.jpg"
         alt="Price List"
         class="absolute inset-0 w-full h-full object-cover">
     <!-- Overlay -->
-    <div
-        class="hero-overlay absolute inset-0">
+    <div class="hero-overlay absolute inset-0">
     </div>
     <!-- Decorative Blur -->
-    <div
-        class="absolute top-0 right-0 w-[500px] h-[500px] rounded-full bg-white/10 blur-3xl">
+    <div class="absolute top-0 right-0 w-[500px] h-[500px] rounded-full bg-white/10 blur-3xl">
     </div>
     <!-- Content -->
-    <div
-        class="relative z-10 h-full flex items-center">
-        <div
-            class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
-            <div
-                class="max-w-3xl">
+    <div class="relative z-10 h-full flex items-center">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+            <div class="max-w-3xl">
                 <!-- Badge -->
-                <span
-                    class="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-white/10 backdrop-blur-md text-white text-sm uppercase tracking-[2px]">
-                <i class="ri-price-tag-3-line"></i>
-                Professional Beauty Treatments
+                <span class="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-white/10 backdrop-blur-md text-white text-sm uppercase tracking-[2px]" data-aos="fade-down">
+                    <i class="ri-price-tag-3-line"></i>
+                    Professional Beauty Treatments
                 </span>
                 <!-- Title -->
-                <h1
-                    class="heading-font text-white text-5xl md:text-6xl lg:text-7xl mt-6 leading-tight">
+                <h1 class="heading-font text-white text-5xl md:text-6xl lg:text-7xl mt-6 leading-tight" data-aos="fade-up" data-aos-delay="100">
                     Price List
                 </h1>
                 <!-- Description -->
-                <p
-                    class="text-white/80 text-lg lg:text-xl mt-6 max-w-2xl leading-8">
+                <p class="hidden lg:block text-white/80 text-lg lg:text-xl mt-6 max-w-2xl leading-8" data-aos="fade-up" data-aos-delay="200">
                     Discover our complete range of beauty, skincare,
                     nail, facial, massage and wellness treatments
                     with transparent pricing.
@@ -45,54 +35,58 @@
     </div>
 </section>
 <!-- Categories Section -->
-<div class="sticky top-24 z-40 bg-white/95 backdrop-blur-xl border-b border-gray-100 shadow-sm">
+<div class="sticky top-24 z-40 bg-white/95 backdrop-blur-xl border-b border-gray-100 shadow-sm" data-aos="fade-up"
+    data-aos-duration="800">
     <div
         class="max-w-7xl mx-auto px-4">
         <div
             class="flex lg:justify-center lg:flex-wrap gap-3 overflow-x-auto py-5 whitespace-nowrap scrollbar-hide">
             <a href="#threading"
                 class="price-nav active-price-nav">
-            Threading
+                Threading
             </a>
             <a href="#waxing"
                 class="price-nav">
-            Waxing
+                Waxing
             </a>
             <a href="#facial"
                 class="price-nav">
-            Facial
+                Facial
             </a>
             <a href="#nails"
                 class="price-nav">
-            Nails
+                Nails
             </a>
             <a href="#massage"
                 class="price-nav">
-            Massage
+                Massage
             </a>
             <a href="#eyelashes"
                 class="price-nav">
-            Eyelashes
+                Eyelashes
             </a>
             <a href="#ipl"
                 class="price-nav">
-            IPL
+                IPL
             </a>
         </div>
     </div>
 </div>
+
 <section id="threading" class="Section-light">
     <div class="max-w-5xl mx-auto px-4">
         <div
-            class="bg-white rounded-[40px] shadow-xl overflow-hidden">
+            class="bg-white rounded-[40px] shadow-xl overflow-hidden" data-aos="fade-up"
+            data-aos-duration="900">
             <div
                 class="pb-10 px-10 pt-0 border-b">
                 <h3
-                    class="heading-font text-3xl lg:text-4xl text-center">
+                    class="heading-font text-3xl lg:text-4xl text-center" data-aos="fade-up">
                     Threading Treatments
                 </h3>
                 <p
-                    class="max-w-2xl mx-auto mt-4 text-light text-center">
+                    class="max-w-2xl mx-auto mt-4 text-light text-center" data-aos="fade-up"
+                    data-aos-delay="100">
                     Professional threading services for precise,
                     long-lasting hair removal and beautifully
                     defined features.
@@ -100,31 +94,31 @@
             </div>
             <div>
                 <div
-                    class="flex justify-between items-center p-6 border-b hover:bg-[var(--bg-light)] transition duration-300">
+                    class="flex justify-between items-center p-6 border-b hover:bg-[var(--bg-light)] transition duration-300" data-aos="fade-up" data-aos-delay="100">
                     <span class="font-medium text-[var(--text-dark)]">Eyebrow Shape</span>
                     <strong class="text-primary text-xl lg:text-2xl font-bold">
-                    £8
+                        £8
                     </strong>
                 </div>
                 <div
-                    class="flex justify-between items-center p-6 border-b hover:bg-[var(--bg-light)] transition duration-300">
+                    class="flex justify-between items-center p-6 border-b hover:bg-[var(--bg-light)] transition duration-300" data-aos="fade-up" data-aos-delay="150">
                     <span class="font-medium text-[var(--text-dark)]">Upper Lip</span>
                     <strong class="text-primary text-xl lg:text-2xl font-bold">
-                    £4
+                        £4
                     </strong>
                 </div>
                 <div
-                    class="flex justify-between items-center p-6 border-b hover:bg-[var(--bg-light)] transition duration-300">
+                    class="flex justify-between items-center p-6 border-b hover:bg-[var(--bg-light)] transition duration-300" data-aos="fade-up" data-aos-delay="200">
                     <span class="font-medium text-[var(--text-dark)]">Forehead</span>
                     <strong class="text-primary text-xl lg:text-2xl font-bold">
-                    £6
+                        £6
                     </strong>
                 </div>
                 <div
-                    class="flex justify-between items-center p-6 border-b hover:bg-[var(--bg-light)] transition duration-300">
+                    class="flex justify-between items-center p-6 border-b hover:bg-[var(--bg-light)] transition duration-300" data-aos="fade-up" data-aos-delay="250">
                     <span class="font-medium text-[var(--text-dark)]">Full Face</span>
                     <strong class="text-primary text-xl lg:text-2xl font-bold">
-                    £25
+                        £25
                     </strong>
                 </div>
             </div>
@@ -134,15 +128,17 @@
 <section id="waxing" class="Section-light">
     <div class="max-w-5xl mx-auto px-4">
         <div
-            class="bg-white rounded-[40px] shadow-xl overflow-hidden">
+            class="bg-white rounded-[40px] shadow-xl overflow-hidden" data-aos="fade-up"
+            data-aos-duration="900">
             <div
                 class="pb-10 px-10 pt-0 border-b">
                 <h3
-                    class="heading-font text-3xl lg:text-4xl text-center">
-                    Threading Treatments
+                    class="heading-font text-3xl lg:text-4xl text-center" data-aos="fade-up">
+                    Waxing
                 </h3>
                 <p
-                    class="max-w-2xl mx-auto mt-4 text-light text-center">
+                    class="max-w-2xl mx-auto mt-4 text-light text-center" data-aos="fade-up"
+                    data-aos-delay="100">
                     Professional threading services for precise,
                     long-lasting hair removal and beautifully
                     defined features.
@@ -150,31 +146,31 @@
             </div>
             <div>
                 <div
-                    class="flex justify-between items-center p-6 border-b hover:bg-[var(--bg-light)] transition duration-300">
+                    class="flex justify-between items-center p-6 border-b hover:bg-[var(--bg-light)] transition duration-300" data-aos="fade-up" data-aos-delay="100">
                     <span class="font-medium text-[var(--text-dark)]">Eyebrow Shape</span>
                     <strong class="text-primary text-xl lg:text-2xl font-bold">
-                    £8
+                        £8
                     </strong>
                 </div>
                 <div
-                    class="flex justify-between items-center p-6 border-b hover:bg-[var(--bg-light)] transition duration-300">
+                    class="flex justify-between items-center p-6 border-b hover:bg-[var(--bg-light)] transition duration-300" data-aos="fade-up" data-aos-delay="150">
                     <span class="font-medium text-[var(--text-dark)]">Upper Lip</span>
                     <strong class="text-primary text-xl lg:text-2xl font-bold">
-                    £4
+                        £4
                     </strong>
                 </div>
                 <div
-                    class="flex justify-between items-center p-6 border-b hover:bg-[var(--bg-light)] transition duration-300">
+                    class="flex justify-between items-center p-6 border-b hover:bg-[var(--bg-light)] transition duration-300" data-aos="fade-up" data-aos-delay="200">
                     <span class="font-medium text-[var(--text-dark)]">Forehead</span>
                     <strong class="text-primary text-xl lg:text-2xl font-bold">
-                    £6
+                        £6
                     </strong>
                 </div>
                 <div
-                    class="flex justify-between items-center p-6 border-b hover:bg-[var(--bg-light)] transition duration-300">
+                    class="flex justify-between items-center p-6 border-b hover:bg-[var(--bg-light)] transition duration-300" data-aos="fade-up" data-aos-delay="250">
                     <span class="font-medium text-[var(--text-dark)]">Full Face</span>
                     <strong class="text-primary text-xl lg:text-2xl font-bold">
-                    £25
+                        £25
                     </strong>
                 </div>
             </div>
@@ -184,15 +180,17 @@
 <section id="facial" class="Section-light">
     <div class="max-w-5xl mx-auto px-4">
         <div
-            class="bg-white rounded-[40px] shadow-xl overflow-hidden">
+            class="bg-white rounded-[40px] shadow-xl overflow-hidden" data-aos="fade-up"
+            data-aos-duration="900">
             <div
                 class="pb-10 px-10 pt-0 border-b">
                 <h3
-                    class="heading-font text-3xl lg:text-4xl text-center">
-                    Threading Treatments
+                    class="heading-font text-3xl lg:text-4xl text-center" data-aos="fade-up">
+                    Facial Treatments
                 </h3>
                 <p
-                    class="max-w-2xl mx-auto mt-4 text-light text-center">
+                    class="max-w-2xl mx-auto mt-4 text-light text-center" data-aos="fade-up"
+                    data-aos-delay="100">
                     Professional threading services for precise,
                     long-lasting hair removal and beautifully
                     defined features.
@@ -200,31 +198,31 @@
             </div>
             <div>
                 <div
-                    class="flex justify-between items-center p-6 border-b hover:bg-[var(--bg-light)] transition duration-300">
+                    class="flex justify-between items-center p-6 border-b hover:bg-[var(--bg-light)] transition duration-300" data-aos="fade-up" data-aos-delay="100">
                     <span class="font-medium text-[var(--text-dark)]">Eyebrow Shape</span>
                     <strong class="text-primary text-xl lg:text-2xl font-bold">
-                    £8
+                        £8
                     </strong>
                 </div>
                 <div
-                    class="flex justify-between items-center p-6 border-b hover:bg-[var(--bg-light)] transition duration-300">
+                    class="flex justify-between items-center p-6 border-b hover:bg-[var(--bg-light)] transition duration-300" data-aos="fade-up" data-aos-delay="150">
                     <span class="font-medium text-[var(--text-dark)]">Upper Lip</span>
                     <strong class="text-primary text-xl lg:text-2xl font-bold">
-                    £4
+                        £4
                     </strong>
                 </div>
                 <div
-                    class="flex justify-between items-center p-6 border-b hover:bg-[var(--bg-light)] transition duration-300">
+                    class="flex justify-between items-center p-6 border-b hover:bg-[var(--bg-light)] transition duration-300" data-aos="fade-up" data-aos-delay="200">
                     <span class="font-medium text-[var(--text-dark)]">Forehead</span>
                     <strong class="text-primary text-xl lg:text-2xl font-bold">
-                    £6
+                        £6
                     </strong>
                 </div>
                 <div
-                    class="flex justify-between items-center p-6 border-b hover:bg-[var(--bg-light)] transition duration-300">
+                    class="flex justify-between items-center p-6 border-b hover:bg-[var(--bg-light)] transition duration-300" data-aos="fade-up" data-aos-delay="250">
                     <span class="font-medium text-[var(--text-dark)]">Full Face</span>
                     <strong class="text-primary text-xl lg:text-2xl font-bold">
-                    £25
+                        £25
                     </strong>
                 </div>
             </div>
@@ -234,15 +232,17 @@
 <section id="nails" class="Section-light">
     <div class="max-w-5xl mx-auto px-4">
         <div
-            class="bg-white rounded-[40px] shadow-xl overflow-hidden">
+            class="bg-white rounded-[40px] shadow-xl overflow-hidden" data-aos="fade-up"
+            data-aos-duration="900">
             <div
                 class="pb-10 px-10 pt-0 border-b">
                 <h3
-                    class="heading-font text-3xl lg:text-4xl text-center">
-                    Threading Treatments
+                    class="heading-font text-3xl lg:text-4xl text-center" data-aos="fade-up">
+                    Nails
                 </h3>
                 <p
-                    class="max-w-2xl mx-auto mt-4 text-light text-center">
+                    class="max-w-2xl mx-auto mt-4 text-light text-center" data-aos="fade-up"
+                    data-aos-delay="100">
                     Professional threading services for precise,
                     long-lasting hair removal and beautifully
                     defined features.
@@ -250,37 +250,38 @@
             </div>
             <div>
                 <div
-                    class="flex justify-between items-center p-6 border-b hover:bg-[var(--bg-light)] transition duration-300">
+                    class="flex justify-between items-center p-6 border-b hover:bg-[var(--bg-light)] transition duration-300" data-aos="fade-up" data-aos-delay="100">
                     <span class="font-medium text-[var(--text-dark)]">Eyebrow Shape</span>
                     <strong class="text-primary text-xl lg:text-2xl font-bold">
-                    £8
+                        £8
                     </strong>
                 </div>
                 <div
-                    class="flex justify-between items-center p-6 border-b hover:bg-[var(--bg-light)] transition duration-300">
+                    class="flex justify-between items-center p-6 border-b hover:bg-[var(--bg-light)] transition duration-300" data-aos="fade-up" data-aos-delay="150">
                     <span class="font-medium text-[var(--text-dark)]">Upper Lip</span>
                     <strong class="text-primary text-xl lg:text-2xl font-bold">
-                    £4
+                        £4
                     </strong>
                 </div>
                 <div
-                    class="flex justify-between items-center p-6 border-b hover:bg-[var(--bg-light)] transition duration-300">
+                    class="flex justify-between items-center p-6 border-b hover:bg-[var(--bg-light)] transition duration-300" data-aos="fade-up" data-aos-delay="200">
                     <span class="font-medium text-[var(--text-dark)]">Forehead</span>
                     <strong class="text-primary text-xl lg:text-2xl font-bold">
-                    £6
+                        £6
                     </strong>
                 </div>
                 <div
-                    class="flex justify-between items-center p-6 border-b hover:bg-[var(--bg-light)] transition duration-300">
+                    class="flex justify-between items-center p-6 border-b hover:bg-[var(--bg-light)] transition duration-300" data-aos="fade-up" data-aos-delay="250">
                     <span class="font-medium text-[var(--text-dark)]">Full Face</span>
                     <strong class="text-primary text-xl lg:text-2xl font-bold">
-                    £25
+                        £25
                     </strong>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
 <section style="padding-top: 0 !important;">
     <div class="max-w-6xl mx-auto px-4">
         <div
@@ -307,7 +308,7 @@
             <div class="relative z-10">
                 <span
                     class="inline-flex px-5 py-2 rounded-full bg-white/10 backdrop-blur">
-                Professional Elegance Beauty Salon
+                    Professional Elegance Beauty Salon
                 </span>
                 <h2
                     class="heading-font text-4xl lg:text-6xl mt-8">
@@ -322,21 +323,22 @@
                 <div
                     class="flex flex-wrap justify-center gap-4 mt-10">
                     <a href="bookappointment.php"
-                        class="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-white text-primary font-semibold hover:scale-105 transition">
-                    <i class="ri-calendar-line"></i>
+                        class="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-white text-primary btn-luxury font-semibold hover:scale-105 transition">
+                        <i class="ri-calendar-line"></i>
                         Book Appointment
-                    <i class="ri-arrow-right-line"></i>
+                        <i class="ri-arrow-right-line"></i>
                     </a>
                     <a href="tel:+441234567890"
                         class="group inline-flex items-center gap-2 px-8 py-4 rounded-full border border-white text-white hover:bg-white hover:text-[var(--primary)] transition">
-                    <i class="ri-phone-line"></i>
-                    Call Us
+                        <i class="ri-phone-line"></i>
+                        Call Us
                     </a>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
 <?php
-    include './includes/footer.php'
-    ?>
+include './includes/footer.php'
+?>

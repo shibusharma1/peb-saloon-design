@@ -162,7 +162,7 @@
                 </a>
                 <div class="float-animation">
                     <a href="bookappointment.php"
-                        class="mt-6 text-center px-6 py-4 rounded-full btn-primary text-white">
+                        class="mt-6 text-center px-6 py-4 rounded-full btn-primary btn-luxury text-white">
                         <i class="ri-calendar-line"></i>
                         Book Appointment
                     </a>

@@ -21,10 +21,10 @@ include './includes/header.php'
                 <h1 class="text-white text-5xl lg:text-7xl mt-8 leading-tight min-h-[120px]">
                     <span id="heroText" data-text="Discover Your Most Beautiful Self"></span>
                     <span class="text-primary animate-pulse">|</span>
-                    </h1>
-                    <p class="text-white/90 text-lg mt-6 max-w-xl">
-                        Premium hair, beauty, skin care and wellness treatments designed to enhance your natural elegance.
-                    </p>
+                </h1>
+                <p class="text-white/90 text-lg mt-6 max-w-xl">
+                    Premium hair, beauty, skin care and wellness treatments designed to enhance your natural elegance.
+                </p>
             </div>
         </div>
     </div>
@@ -76,8 +76,7 @@ include './includes/header.php'
                     professionalism, comfort and customer satisfaction.
                 </p>
                 <!-- Features -->
-                <div
-                    class="grid grid-cols-2 gap-4 sm:gap-5 mt-10">
+                <div class="grid grid-cols-2 gap-4 sm:gap-5 mt-10">
                     <div class="flex items-center gap-3">
                         <div
                             class="w-10 h-10 rounded-full bg-[#C48B5F]/10 flex items-center justify-center">
@@ -88,8 +87,7 @@ include './includes/header.php'
                         </span>
                     </div>
                     <div class="flex items-center gap-3">
-                        <div
-                            class="w-10 h-10 rounded-full bg-[#C48B5F]/10 flex items-center justify-center">
+                        <div class="w-10 h-10 rounded-full bg-[#C48B5F]/10 flex items-center justify-center">
                             <i class="ri-check-line text-primary"></i>
                         </div>
                         <span class="font-medium">
@@ -97,8 +95,7 @@ include './includes/header.php'
                         </span>
                     </div>
                     <div class="flex items-center gap-3">
-                        <div
-                            class="w-10 h-10 rounded-full bg-[#C48B5F]/10 flex items-center justify-center">
+                        <div class="w-10 h-10 rounded-full bg-[#C48B5F]/10 flex items-center justify-center">
                             <i class="ri-check-line text-primary"></i>
                         </div>
                         <span class="font-medium">
@@ -106,8 +103,7 @@ include './includes/header.php'
                         </span>
                     </div>
                     <div class="flex items-center gap-3">
-                        <div
-                            class="w-10 h-10 rounded-full bg-[#C48B5F]/10 flex items-center justify-center">
+                        <div class="w-10 h-10 rounded-full bg-[#C48B5F]/10 flex items-center justify-center">
                             <i class="ri-check-line text-primary"></i>
                         </div>
                         <span class="font-medium">
@@ -118,7 +114,7 @@ include './includes/header.php'
                 <!-- Button -->
                 <div class="text-center mt-12">
                     <a href="about.php"
-                        class="inline-flex items-center gap-3 px-8 py-4 rounded-full btn-primary text-white font-semibold shadow-lg hover:scale-105 transition">
+                        class="inline-flex items-center gap-3 px-8 py-4 rounded-full btn-primary btn-luxury text-white font-semibold shadow-lg hover:scale-105 transition">
                         Read More
                         <i class="ri-arrow-right-line"></i>
                     </a>
@@ -132,12 +128,10 @@ include './includes/header.php'
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <!-- Heading -->
         <div class="text-center max-w-3xl mx-auto">
-            <span
-                class="uppercase tracking-[4px] text-primary-dark font-semibold text-sm">
+            <span class="uppercase tracking-[4px] text-primary-dark font-semibold text-sm">
                 Our Expertise
             </span>
-            <h2
-                class="mt-4 text-4xl lg:text-5xl font-semibold text-gray-900" data-aos="fade-up">
+            <h2 class="mt-4 text-4xl lg:text-5xl font-semibold text-gray-900" data-aos="fade-up">
                 Luxury Beauty Services
             </h2>
             <div class="mt-5">
@@ -145,15 +139,13 @@ include './includes/header.php'
                     <i class="flaticon-spa text-primary"></i>
                 </div>
             </div>
-            <p
-                class="mt-6 text-gray-600 text-lg">
+            <p class="mt-6 text-gray-600 text-lg">
                 Discover premium beauty and wellness treatments tailored
                 to enhance your natural elegance.
             </p>
         </div>
         <!-- Services -->
-        <div
-            class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
             <!-- Card -->
             <div
                 class="group bg-white rounded-[32px] overflow-hidden shadow-lg hover:shadow-2xl transition duration-500">
@@ -184,25 +176,20 @@ include './includes/header.php'
                     </a>
                 </div>
             </div>
-            <div
-                class="group bg-white rounded-[32px] overflow-hidden shadow-lg hover:shadow-2xl transition duration-500">
+            <div class="group bg-white rounded-[32px] overflow-hidden shadow-lg hover:shadow-2xl transition duration-500">
                 <div class="overflow-hidden">
-                    <img
-                        src="./assets/img/our-services/pic1.jpg"
+                    <img src="./assets/img/our-services/pic1.jpg"
                         alt=""
                         class="w-full h-80 object-cover group-hover:scale-110 transition duration-700" data-aos="zoom-in-up" data-aos-delay="100">
                 </div>
                 <div class="p-8">
-                    <span
-                        class="text-primary text-sm uppercase tracking-[3px]">
+                    <span class="text-primary text-sm uppercase tracking-[3px]">
                         Beauty Care
                     </span>
-                    <h4
-                        class="mt-3 text-2xl font-semibold text-gray-900" data-aos="fade-up">
+                    <h4 class="mt-3 text-2xl font-semibold text-gray-900" data-aos="fade-up">
                         Hair Styling
                     </h4>
-                    <p
-                        class="mt-4 text-gray-600 leading-7">
+                    <p class="mt-4 text-gray-600 leading-7">
                         Professional styling, coloring and hair treatment
                         services designed for your unique look.
                     </p>
@@ -242,12 +229,11 @@ include './includes/header.php'
                     </a>
                 </div>
             </div>
-            <!-- Repeat cards -->
         </div>
-        <!-- CTA -->
+
         <div class="text-center mt-12">
             <a href="services.php"
-                class="inline-flex items-center gap-3 px-8 py-4 rounded-full btn-primary text-white font-semibold shadow-lg hover:scale-105 transition">
+                class="inline-flex items-center gap-3 px-8 py-4 rounded-full btn-primary btn-luxury text-white font-semibold shadow-lg hover:scale-105 transition">
                 View All Services
                 <i class="ri-arrow-right-line"></i>
             </a>
@@ -257,84 +243,171 @@ include './includes/header.php'
 
 <section class="section-white overflow-hidden">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <!-- Heading -->
+
         <div class="text-center max-w-3xl mx-auto">
             <span
                 class="uppercase tracking-[4px] text-primary font-semibold text-sm">
                 Exclusive Offers
             </span>
-            <h2
-                class="mt-4 text-4xl lg:text-5xl font-semibold text-gray-900" data-aos="fade-up">
+            <h2 class="mt-4 text-4xl lg:text-5xl font-semibold text-gray-900" data-aos="fade-up">
                 Beauty Promotions You'll Love
             </h2>
         </div>
         <!-- Featured Offer -->
-        <div
-            class="mt-12 bg-white rounded-[40px] overflow-hidden shadow-xl">
-            <div
-                class="grid lg:grid-cols-2 items-center">
-                <!-- Content -->
-                <div
-                    class="order-2 lg:order-1 p-8 lg:p-16">
-                    <span
-                        class="inline-flex px-4 py-2 rounded-full bg-[#7B234B]/10 text-primary font-semibold text-sm">
-                        FEATURED OFFER
-                    </span>
-                    <h2
-                        class="mt-6 text-4xl lg:text-5xl font-semibold text-gray-900" data-aos="fade-up">
-                        Hot Stone Massage
-                    </h2>
-                    <p
-                        class="mt-6 text-lg text-gray-600 leading-8">
-                        Experience deep relaxation with our luxurious Hot
-                        Stone Massage. Perfect for relieving stress,
-                        reducing muscle tension and restoring your body's
-                        natural balance.
-                    </p>
-                    <!-- Features -->
-                    <div
-                        class="hidden sm:grid sm:grid-cols-2 gap-4 mt-8">
-                        <div class="flex items-center gap-3">
-                            <i class="ri-check-line text-primary text-xl"></i>
-                            <span>90 Minute Session</span>
-                        </div>
-                        <div class="flex items-center gap-3">
-                            <i class="ri-check-line text-primary text-xl"></i>
-                            <span>Premium Oils</span>
-                        </div>
-                        <div class="flex items-center gap-3">
-                            <i class="ri-check-line text-primary text-xl"></i>
-                            <span>Relaxing Atmosphere</span>
-                        </div>
-                        <div class="flex items-center gap-3">
-                            <i class="ri-check-line text-primary text-xl"></i>
-                            <span>Expert Therapists</span>
+        <div class="featured-offer-slider mt-12 relative">
+
+            <div class="swiper featuredSwiper">
+
+                <div class="swiper-wrapper">
+
+                    <!-- Slide 1 -->
+                    <div class="swiper-slide">
+                        <div class="bg-white rounded-[40px] overflow-hidden shadow-xl">
+                            <div class="grid lg:grid-cols-2 items-center">
+
+                                <div class="order-2 lg:order-1 p-8 lg:p-16">
+
+                                    <span class="inline-flex px-4 py-2 rounded-full bg-[#7B234B]/10 text-primary font-semibold text-sm">
+                                        FEATURED OFFER
+                                    </span>
+
+                                    <h2 class="mt-6 text-4xl lg:text-5xl font-semibold text-gray-900">
+                                        Hot Stone Massage
+                                    </h2>
+
+                                    <p class="mt-6 text-lg text-gray-600 leading-8">
+                                        Experience deep relaxation with our luxurious
+                                        Hot Stone Massage.
+                                    </p>
+
+                                    <div class="hidden sm:grid sm:grid-cols-2 gap-4 mt-8">
+                                        <div class="flex items-center gap-3">
+                                            <i class="ri-check-line text-primary text-xl"></i>
+                                            <span>90 Minute Session</span>
+                                        </div>
+
+                                        <div class="flex items-center gap-3">
+                                            <i class="ri-check-line text-primary text-xl"></i>
+                                            <span>Premium Oils</span>
+                                        </div>
+
+                                        <div class="flex items-center gap-3">
+                                            <i class="ri-check-line text-primary text-xl"></i>
+                                            <span>Relaxing Atmosphere</span>
+                                        </div>
+
+                                        <div class="flex items-center gap-3">
+                                            <i class="ri-check-line text-primary text-xl"></i>
+                                            <span>Expert Therapists</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="mt-10 flex flex-wrap gap-4">
+                                        <a href="bookappointment.php"
+                                            class="inline-flex items-center gap-2 px-8 py-4 rounded-full btn-primary btn-luxury text-white font-semibold">
+                                            Book Now
+                                            <i class="ri-arrow-right-line"></i>
+                                        </a>
+
+                                        <a href="offer-detail.php"
+                                            class="inline-flex items-center gap-2 px-8 py-4 rounded-full border border-[#7B234B] text-primary font-semibold">
+                                            Learn More
+                                        </a>
+                                    </div>
+
+                                </div>
+
+                                <div class="order-1 lg:order-2 relative h-full">
+                                    <img
+                                        src="./assets/img/background/bg2.jpg"
+                                        alt=""
+                                        class="w-full h-[280px] sm:h-[350px] lg:h-full object-cover">
+                                </div>
+
+                            </div>
                         </div>
                     </div>
-                    <div
-                        class="mt-10 flex flex-wrap gap-4">
-                        <a href="bookappointment.php"
-                            class="inline-flex items-center gap-2 px-8 py-4 rounded-full btn-primary text-white font-semibold">
-                            Book Now
-                            <i class="ri-arrow-right-line"></i>
-                        </a>
-                        <a href="offer-detail.php"
-                            class="inline-flex items-center gap-2 px-8 py-4 rounded-full border border-[#7B234B] text-primary font-semibold">
-                            Learn More
-                        </a>
+
+                    <!-- Slide 2 -->
+                    <div class="swiper-slide">
+                        <div class="bg-white rounded-[40px] overflow-hidden shadow-xl">
+                            <div class="grid lg:grid-cols-2 items-center">
+
+                                <div class="order-2 lg:order-1 p-8 lg:p-16">
+
+                                    <span class="inline-flex px-4 py-2 rounded-full bg-[#7B234B]/10 text-primary font-semibold text-sm">
+                                        FEATURED OFFER
+                                    </span>
+
+                                    <h2 class="mt-6 text-4xl lg:text-5xl font-semibold text-gray-900">
+                                        Luxury Facial
+                                    </h2>
+
+                                    <p class="mt-6 text-lg text-gray-600 leading-8">
+                                        Rejuvenate your skin with our signature
+                                        luxury facial treatment.
+                                    </p>
+                                    <div class="hidden sm:grid sm:grid-cols-2 gap-4 mt-8">
+                                        <div class="flex items-center gap-3">
+                                            <i class="ri-check-line text-primary text-xl"></i>
+                                            <span>90 Minute Session</span>
+                                        </div>
+
+                                        <div class="flex items-center gap-3">
+                                            <i class="ri-check-line text-primary text-xl"></i>
+                                            <span>Premium Oils</span>
+                                        </div>
+
+                                        <div class="flex items-center gap-3">
+                                            <i class="ri-check-line text-primary text-xl"></i>
+                                            <span>Relaxing Atmosphere</span>
+                                        </div>
+
+                                        <div class="flex items-center gap-3">
+                                            <i class="ri-check-line text-primary text-xl"></i>
+                                            <span>Expert Therapists</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="mt-10">
+                                        <a href="bookappointment.php"
+                                            class="inline-flex items-center gap-2 px-8 py-4 rounded-full btn-primary btn-luxury text-white font-semibold">
+                                            Book Now
+                                        </a>
+                                        <a href="offer-detail.php"
+                                            class="inline-flex items-center gap-2 px-8 py-4 rounded-full border border-[#7B234B] text-primary font-semibold">
+                                            Learn More
+                                        </a>
+                                    </div>
+
+                                </div>
+
+                                <div class="order-1 lg:order-2 relative h-full">
+                                    <img
+                                        src="./assets/img/background/bg1.jpg"
+                                        alt=""
+                                        class="w-full h-[280px] sm:h-[350px] lg:h-full object-cover">
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
+
                 </div>
-                <!-- Image -->
-                <div
-                    class="order-1 lg:order-2 relative h-full">
-                    <img
-                        src="./assets/img/background/bg2.jpg"
-                        alt=""
-                        class="w-full h-[280px] sm:h-[350px] lg:h-full object-cover" data-aos="zoom-in-up" data-aos-delay="100">
-                </div>
+
             </div>
+
+            <!-- Left Arrow -->
+            <button class="featured-prev">
+                <i class="ri-arrow-left-s-line"></i>
+            </button>
+
+            <!-- Right Arrow -->
+            <button class="featured-next">
+                <i class="ri-arrow-right-s-line"></i>
+            </button>
+            <div class="swiper-pagination mt-4px"></div>
         </div>
-        
     </div>
 </section>
 

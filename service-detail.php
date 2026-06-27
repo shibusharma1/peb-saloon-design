@@ -1,11 +1,12 @@
 <?php
 include './includes/header.php'
 ?>
-    
+
+
 <section class="section-light">
     <div class="max-w-7xl mx-auto px-4">
         <div class="grid lg:grid-cols-12 gap-10">
-            <div class="lg:hidden mb-6">
+            <div class="lg:hidden mb-2">
                 <h2 class="heading-font text-3xl text-primary">
                     Beauty Spotlight
                 </h2>
@@ -16,7 +17,7 @@ include './includes/header.php'
             </div>
             <!-- LEFT SIDEBAR -->
             <aside class="lg:col-span-4 order-2 lg:order-1">
-                <div class="bg-white rounded-[32px] shadow-lg p-8 mb-8">
+                <div class="bg-white rounded-[32px] shadow-lg p-8 mb-8" data-aos="fade-right">
                     <h3
                         class="heading-font text-3xl text-primary mb-8">
                         Our Services
@@ -46,11 +47,13 @@ include './includes/header.php'
                 </div>
 
                 <!-- now offers here -->
-                <div class="mt-8 overflow-hidden rounded-[32px] shadow-xl bg-white sticky top-28">
+                <div class="mt-8 overflow-hidden rounded-[32px] shadow-xl bg-white sticky top-28" data-aos="fade-left"
+                    data-aos-delay="200">
                     <div class="relative">
                         <img
                             src="./assets/img/nail-extension-offer.png"
-                            class="h-64 w-full object-cover">
+                            class="h-64 w-full object-cover transition duration-[2000ms] hover:scale-105" data-aos="zoom-out"
+                            data-aos-duration="100">
                         <div
                             class="absolute top-4 left-4 bg-primary text-white px-4 py-2 rounded-full text-sm">
                             Featured Offer
@@ -68,7 +71,7 @@ include './includes/header.php'
                             including consultation and finishing.
                         </p>
                         <a href="bookappointment.php"
-                            class="btn-primary mt-6">
+                            class="btn-primary btn-luxury mt-6">
                             Claim Offer
                         </a>
                     </div>
@@ -80,18 +83,20 @@ include './includes/header.php'
                     class="bg-white rounded-[40px] overflow-hidden shadow-xl">
                     <img
                         src="./assets/img/nailextension.png"
-                        class="w-full h-[380px] object-cover">
+                        class="w-full h-[380px] object-cover transition duration-[2000ms] hover:scale-105" data-aos="zoom-out"
+                        data-aos-duration="1200">
                     <div class="p-6 lg:p-8">
                         <span
-                            class="inline-flex px-4 py-2 rounded-full bg-primary/10 text-primary">
+                            class="inline-flex px-4 py-2 rounded-full bg-primary/10 text-primary" data-aos="fade-up"
+                            data-aos-delay="100">
                             Premium Beauty Treatment
                         </span>
-                        <h1
-                            class="heading-font px-4 text-4xl">
+                        <h1 class="heading-font px-4 text-4xl" data-aos="fade-up"
+                            data-aos-delay="200">
                             Nail Extension
                         </h1>
-                        <p
-                            class="text-muted px-4 mt-4 leading-8">
+                        <p class="text-muted px-4 mt-4 leading-8" data-aos="fade-up"
+                            data-aos-delay="300">
                             Transform your nails with our premium nail extension services, designed to enhance both beauty and confidence.
                             Our expert nail technicians carefully craft flawless extensions that add length, strength, and elegance while
                             maintaining a natural and comfortable feel. Whether you prefer a classic, sophisticated style or trendy nail art,
@@ -110,7 +115,7 @@ include './includes/header.php'
                         <div
                             class="flex justify-between items-center p-5 rounded-2xl bg-light hover:bg-white hover:border hover:border-primary/40 hover:shadow-lg hover:-translate-y-1 transition-all duration-300 cursor-pointer">
                             <span>Basic Nail Extension</span>
-                            <strong class="text-primary">
+                            <strong class="text-primary text-xl">
                                 £35
                             </strong>
                         </div>
@@ -118,7 +123,7 @@ include './includes/header.php'
                         <div
                             class="flex justify-between items-center p-5 rounded-2xl bg-light hover:bg-white hover:border hover:border-primary/40 hover:shadow-lg hover:-translate-y-1 transition-all duration-300 cursor-pointer">
                             <span>Luxury Nail Extension</span>
-                            <strong class="text-primary">
+                            <strong class="text-primary text-xl">
                                 £50
                             </strong>
                         </div>
@@ -127,7 +132,7 @@ include './includes/header.php'
                     <!-- Add button here -->
                     <div class="mt-6 text-center">
                         <a href="bookappointment.php"
-                            class="btn-primary inline-flex items-center gap-2">
+                            class="btn-primary btn-luxury inline-flex items-center gap-2">
                             <i class="ri-calendar-line"></i>
                             Book Appointment Now
                         </a>

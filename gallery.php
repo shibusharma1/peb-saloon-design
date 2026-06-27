@@ -2,8 +2,7 @@
 include './includes/header.php'
 ?>
 
-<div
-    class="sticky top-24 z-30 bg-white/90 backdrop-blur-xl border-b">
+<div class="sticky top-24 z-30 bg-white/90 backdrop-blur-xl border-b">
     <div
         class="max-w-7xl mx-auto px-4">
         <div
@@ -46,7 +45,7 @@ include './includes/header.php'
         </div>
     </div>
 </div>
-<section class="py-20 bg-light">
+<section class="section-light">
     <div class="max-w-7xl mx-auto px-4">
         <div
             id="galleryContainer"

@@ -232,7 +232,7 @@ include './includes/header.php'
         <!-- CTA -->
         <div class="text-center mt-16">
             <a href="#"
-                class="inline-flex items-center gap-3 px-8 py-4 rounded-full btn-primary text-white font-semibold shadow-lg hover:scale-105 transition">
+                class="inline-flex items-center gap-3 px-8 py-4 rounded-full btn-primary btn-luxury text-white font-semibold shadow-lg hover:scale-105 transition">
                 View All Services
                 <i class="ri-arrow-right-line"></i>
             </a>

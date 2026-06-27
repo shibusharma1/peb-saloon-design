@@ -34,7 +34,7 @@ include './includes/header.php'
                     About Us
                 </h1>
                 <!-- Description -->
-                <p class="text-white/80 text-lg lg:text-xl mt-6 max-w-2xl leading-8">
+                <p class="hidden lg:block text-white/80 text-lg lg:text-xl mt-6 max-w-2xl leading-8">
                     Beauty With Passion,
                     Elegance With Purpose
                 </p>

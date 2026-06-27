@@ -54,7 +54,7 @@ include './includes/header.php'
                 </h1>
                 <!-- Description -->
                 <p
-                    class="text-white/80 text-lg lg:text-xl mt-6 max-w-2xl leading-8">
+                    class="hidden lg:block text-white/80 text-lg lg:text-xl mt-6 max-w-2xl leading-8">
                     Whether you're booking your next beauty treatment,
                     looking for professional advice, or simply have a question,
                     our team would love to hear from you.
@@ -69,11 +69,11 @@ include './includes/header.php'
             <!-- ========================================= -->
             <!-- LEFT SIDEBAR -->
             <!-- ========================================= -->
-            <aside class="lg:col-span-3">
+            <aside class="hidden lg:block lg:col-span-3 lg:sticky lg:top-32 self-start h-fit">
                 <!-- Sticky Wrapper -->
-                <div class="self-start space-y-8">
+                <div class="space-y-8">
                     <!-- Offer List -->
-                    <div class="lg:sticky lg:top-32 bg-white rounded-[36px] shadow-xl overflow-hidden">
+                    <div class="bg-white rounded-[36px] shadow-xl overflow-hidden">
                         <div class="p-4 border-b">
                             <span class="text-sm uppercase tracking-[3px] text-primary">
                                 Explore
@@ -137,31 +137,7 @@ include './includes/header.php'
                             </a>
                         </div>
                     </div>
-                    <!-- Featured Offer -->
-                    <div class="bg-white rounded-[36px] shadow-lg p-8">
-                        <span class="text-sm uppercase tracking-[3px] text-primary">
-                            Need Help?
-                        </span>
 
-                        <h3 class="heading-font text-3xl mt-4">
-                            Book Your Appointment
-                        </h3>
-
-                        <p class="text-muted mt-4 leading-7">
-                            Our beauty specialists are available to help you choose the perfect treatment.
-                        </p>
-
-                        <a href="tel:+441604315484"
-                            class="btn-primary w-full justify-center mt-6">
-                            <i class="ri-phone-line"></i>
-                            Call Us
-                        </a>
-
-                        <a href="bookappointment.php"
-                            class="btn-outline w-full justify-center mt-4">
-                            Book Appointment
-                        </a>
-                    </div>
                 </div>
             </aside>
 
@@ -393,77 +369,87 @@ include './includes/header.php'
 
                 </div>
             </div>
-            <!-- Price Card -->
-            <div class="lg:col-span-3 self-start">
-                <div class="lg:sticky lg:top-32">
-                    <div class="bg-white rounded-[40px] shadow-xl overflow-hidden">
-                        <div class="bg-gradient-to-r from-primary to-primary-light p-8 text-primary text-center">
-                            <h4
-                                class="heading-font text-2xl">
-                                Special Offer
-                            </h4>
-                            <p class="text-primary mt-2">
-                                Limited Time Only
-                            </p>
-                        </div>
-                        <div
-                            class="p-8">
-                            <div
-                                class="text-center">
-                                <p class="text-muted">
-                                    Regular Price
-                                </p>
+
+            <aside class="lg:col-span-3 lg:sticky lg:top-32 self-start h-fit">
+                <!-- Sticky Wrapper -->
+                <div class="space-y-8">
+
+                    <div class="bg-white rounded-[36px] shadow-xl overflow-hidden">
+
+                        <div class="p-4">
+                            <!-- <div class="rounded-[40px] shadow-xl overflow-hidden"> -->
+                            <!-- <div class="bg-gradient-to-r from-primary to-primary-light p-8 text-primary text-center">
                                 <h4
-                                    class="text-2xl font-bold line-through text-gray-400 mt-2">
-                                    £80
+                                    class="heading-font text-2xl">
+                                    Special Offer
                                 </h4>
-                            </div>
-                            <div
-                                class="text-center mt-4">
-                                <p class="text-primary font-semibold">
-                                    Offer Price
+                                <p class="text-primary mt-2">
+                                    Limited Time Only
                                 </p>
-                                <h2
-                                    class="heading-font text-4xl text-primary mt-3">
-                                    £60
+                            </div> -->
+                            <div class="p-4 border-b">
+                                <span class="text-sm uppercase tracking-[3px] text-primary">
+                                    Special Offer
+                                </span>
+                                <h2 class="heading-font text-2xl mt-2">
+                                    Limited Time Only
                                 </h2>
                             </div>
                             <div
-                                class="mt-4 rounded-3xl bg-light p-6 text-center">
-                                <span
-                                    class="text-sm uppercase tracking-[3px] text-muted">
-                                    You Save
-                                </span>
-                                <h3
-                                    class="text-2xl font-bold text-green-600 mt-2">
-                                    £20
-                                </h3>
-                            </div>
-                            <!-- <a
-                                href="bookappointment.php"
-                                class="btn-primary w-full justify-center mt-8">
-                                Book This Offer
-                                <i class="ri-arrow-right-line"></i>
-                            </a>
-                            <a
-                                href="tel:+441604315484"
-                                class="btn-outline w-full justify-center mt-4">
-                                <i class="ri-phone-line"></i>
-                                Call Us
-                            </a> -->
-                        </div>
+                                class="p-8">
+                                <div
+                                    class="text-center">
+                                    <p class="text-muted">
+                                        Regular Price
+                                    </p>
+                                    <h4
+                                        class="text-2xl font-bold line-through text-gray-400 mt-2">
+                                        £80
+                                    </h4>
+                                </div>
+                                <div
+                                    class="text-center mt-4">
+                                    <p class="text-primary font-semibold">
+                                        Offer Price
+                                    </p>
+                                    <h2
+                                        class="heading-font text-4xl text-primary mt-3">
+                                        £60
+                                    </h2>
+                                </div>
+                                <div
+                                    class="mt-4 rounded-3xl bg-light p-6 text-center">
+                                    <span
+                                        class="text-sm uppercase tracking-[3px] text-muted">
+                                        You Save
+                                    </span>
+                                    <h3
+                                        class="text-2xl font-bold text-green-600 mt-2">
+                                        £20
+                                    </h3>
+                                </div>
+                                <a
+                                    href="bookappointment.php"
+                                    class="btn-primary btn-luxury w-full justify-center mt-8">
+                                    Book Offer
+                                    <i class="ri-arrow-right-line"></i>
+                                </a>
 
+                            </div>
+
+                        </div>
+                        <!-- </div> -->
                     </div>
 
                 </div>
-            </div>
+            </aside>
 
         </div>
     </div>
-    
+
 </section>
 
-<section class="section-light">
+<section class="section-light" style="padding-top: 0 !important;">
     <div class="max-w-7xl mx-auto px-4">
         <!-- Heading -->
         <div class="text-center max-w-3xl mx-auto">
