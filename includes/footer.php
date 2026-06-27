@@ -1,19 +1,3 @@
-<!-- <section class="relative mb-20 z-10">
-    <div class="max-w-6xl mx-auto px-4">
-        <div class="bg-gradient-to-r from-[#7B234B] to-[#C48B5F] rounded-[40px] p-12 text-center text-white shadow-2xl">
-            <h2 class="text-4xl font-semibold">
-                Ready To Transform Your Look?
-            </h2>
-            <p class="mt-4 text-white/80">
-                Book your appointment today and experience luxury beauty care.
-            </p>
-            <a href="#"
-                class="inline-flex mt-8 px-8 py-4 bg-white text-primary rounded-full font-semibold">
-                Book Appointment
-            </a>
-        </div>
-    </div>
-</section> -->
 <footer class="bg-footer text-white">
     <!-- Main Footer -->
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -59,7 +43,7 @@
                 <div class="space-y-6">
                     <div class="flex gap-4">
                         <i class="ri-map-pin-line text-primary text-xl"></i>
-                        <span class="text-gray-400">
+                        <span class="text-gray-400 hover:text-white">
                             123 Example Street,
                             London, United Kingdom
                         </span>
@@ -67,13 +51,17 @@
                     <div class="flex gap-4">
                         <i class="ri-phone-line text-primary text-xl"></i>
                         <span class="text-gray-400">
-                            +44 1234 567890
+                            <a href="tel:+441234567890" class="text-gray-400 hover:text-white transition">
+                                +44 1234 567890
+                            </a>
                         </span>
                     </div>
                     <div class="flex gap-4">
                         <i class="ri-mail-line text-primary text-xl"></i>
                         <span class="text-gray-400">
-                            info@pebsalon.com
+                            <a href="mailto:info@pebsalon.com" class="flex gap-4 text-gray-400 hover:text-white transition">
+                                info@pebsalon.com
+                            </a>
                         </span>
                     </div>
                 </div>
@@ -84,31 +72,31 @@
                     Opening Hours
                 </h4>
                 <div class="space-y-4 text-gray-400">
-                    <div class="flex justify-between">
+                    <div class="flex justify-between hover:text-white">
                         <span>Monday</span>
                         <span>09:00 - 18:00</span>
                     </div>
-                    <div class="flex justify-between">
+                    <div class="flex justify-between hover:text-white">
                         <span>Tuesday</span>
                         <span>09:00 - 18:00</span>
                     </div>
-                    <div class="flex justify-between">
+                    <div class="flex justify-between hover:text-white">
                         <span>Wednesday</span>
                         <span>09:00 - 18:00</span>
                     </div>
-                    <div class="flex justify-between">
+                    <div class="flex justify-between hover:text-white">
                         <span>Thursday</span>
                         <span>09:00 - 18:00</span>
                     </div>
-                    <div class="flex justify-between">
+                    <div class="flex justify-between hover:text-white">
                         <span>Friday</span>
                         <span>09:00 - 18:00</span>
                     </div>
-                    <div class="flex justify-between">
+                    <div class="flex justify-between hover:text-white">
                         <span>Saturday</span>
                         <span>10:00 - 16:00</span>
                     </div>
-                    <div class="flex justify-between">
+                    <div class="flex justify-between hover:text-white">
                         <span>Sunday</span>
                         <span>Closed</span>
                     </div>
@@ -119,16 +107,18 @@
                 <h4 class="text-xl font-semibold mb-8">
                     We are also Member of
                 </h4>
-                <div class="bg-white rounded-3xl p-6 text-center">
-                    <img src="./assets/img/babtac.png"
-                        alt=""
-                        class="mx-auto h-20 object-contain">
-                    <p class="mt-4 text-gray-400 text-sm">
-                        Proud member of BABTAC
-                        and recognized beauty
-                        industry associations.
-                    </p>
-                </div>
+                <a href="https://www.babtac.com/">
+                    <div class="bg-white rounded-3xl p-6 text-center">
+                        <img src="./assets/img/babtac.png"
+                            alt=""
+                            class="mx-auto h-20 object-contain">
+                        <p class="mt-4 text-gray-400 text-sm">
+                            Proud member of BABTAC
+                            and recognized beauty
+                            industry associations.
+                        </p>
+                    </div>
+                </a>
             </div>
         </div>
         <!-- Payment Section -->
@@ -150,10 +140,13 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
             <div class="flex flex-col md:flex-row justify-between items-center gap-4">
                 <p class="text-sm text-muted">
-                    © 2025 Professional Elegance Beauty Salon. All Rights Reserved.
+                    © 2026 Professional Elegance Beauty Salon. All Rights Reserved.
                 </p>
                 <p class="text-sm text-muted">
-                    Designed with ❤️ by Cyberlink Pvt. Ltd.
+                    Designed with ❤️ by
+                    <a href="https://cyberlink.com.np/" class="hover:text-white transition">
+                        Cyberlink Pvt. Ltd.
+                    </a>
                 </p>
             </div>
         </div>

@@ -452,24 +452,20 @@ include './includes/header.php'
 
                         </h4>
 
-                        <div class="flex gap-4 mt-6">
-
+                        <div
+                            class="flex gap-3">
                             <a href="#" class="social-circle">
-                                <i class="ri-facebook-fill"></i>
+                            <i class="ri-facebook-fill"></i>
                             </a>
-
                             <a href="#" class="social-circle">
-                                <i class="ri-instagram-line"></i>
+                            <i class="ri-instagram-line"></i>
                             </a>
-
                             <a href="#" class="social-circle">
-                                <i class="ri-tiktok-fill"></i>
+                            <i class="ri-tiktok-fill"></i>
                             </a>
-
                             <a href="#" class="social-circle">
-                                <i class="ri-youtube-fill"></i>
+                            <i class="ri-youtube-fill"></i>
                             </a>
-
                         </div>
 
                     </div>

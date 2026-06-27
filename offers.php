@@ -1,20 +1,49 @@
 <?php
 include './includes/header.php'
 ?>
-
-<section class=section-white overflow-hidden">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <!-- Heading -->
-        <div class="text-center max-w-3xl mx-auto">
-            <span
-                class="uppercase tracking-[4px] text-primary font-semibold text-sm">
-                Exclusive Offers
-            </span>
-            <h2
-                class="mt-4 text-4xl lg:text-5xl font-semibold text-gray-900" data-aos="fade-up">
-                Beauty Promotions You'll Love
-            </h2>
+<section class="pt-42 relative h-[280px] lg:h-[340px] overflow-hidden mb-8">
+    <!-- Background Image -->
+    <img
+        src="./assets/img/services-banner.png"
+        alt="Service Banner"
+        class="absolute inset-0 w-full h-full object-cover">
+    <!-- Overlay -->
+    <div
+        class="hero-overlay absolute inset-0">
+    </div>
+    <!-- Decorative Blur -->
+    <div
+        class="absolute top-0 right-0 w-[500px] h-[500px] rounded-full bg-white/10 blur-3xl">
+    </div>
+    <!-- Content -->
+    <div
+        class="relative z-10 h-full flex items-center">
+        <div
+            class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+            <div
+                class="max-w-3xl">
+                <!-- Badge -->
+                <span
+                    class="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-white/10 backdrop-blur-md text-white text-sm uppercase tracking-[2px]">
+                    <i class="ri-price-tag-3-line"></i>
+                    Exclusive Offers
+                </span>
+                <!-- Title -->
+                <h1 class="heading-font text-white text-5xl md:text-6xl lg:text-7xl mt-6 leading-tight">
+                    Beauty Promotions You'll Love
+                </h1>
+                <!-- Description -->
+                <p class="text-white/80 text-lg lg:text-xl mt-6 max-w-2xl leading-8">
+                    Discover premium beauty and wellness treatments tailored
+                    to enhance your natural elegance.
+                </p>
+            </div>
         </div>
+    </div>
+</section>
+
+<section class="section-white overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <!-- Featured Offer -->
         <div
             class="mt-16 bg-white rounded-[40px] overflow-hidden shadow-xl">
@@ -81,7 +110,27 @@ include './includes/header.php'
                 </div>
             </div>
         </div>
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
+
+        <!-- Section Heading -->
+        <div class="text-center mt-12">
+            <span
+                class="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-primary/10 text-primary text-sm uppercase tracking-[2px]">
+                <i class="ri-gift-line"></i>
+                More Offers
+            </span>
+
+            <h2 class="heading-font text-4xl lg:text-5xl text-gray-900 mt-5">
+                Our Other Offers
+            </h2>
+
+            <p class="text-gray-600 mt-4 max-w-2xl mx-auto leading-8">
+                Explore more exclusive beauty and wellness packages carefully designed
+                to elevate your self-care experience with luxury treatments and
+                professional care.
+            </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
             <div
                 class="group bg-white rounded-[32px] overflow-hidden shadow-lg hover:shadow-2xl transition duration-500">
                 <div class="overflow-hidden">
@@ -98,13 +147,69 @@ include './includes/header.php'
                         class="mt-4 text-gray-600">
                         Refresh and brighten your skin with our signature facial.
                     </p>
-                    <a href="#"
+                    <a href="offer-detail.php"
                         class="inline-flex items-center gap-2 mt-6 text-primary font-semibold">
                         Learn More
                         <i class="ri-arrow-right-line"></i>
                     </a>
                 </div>
             </div>
+            <div
+                class="group bg-white rounded-[32px] overflow-hidden shadow-lg hover:shadow-2xl transition duration-500">
+                <div class="overflow-hidden">
+                    <img
+                        src="./assets/img/our-services/pic4.jpg"
+                        class="w-full h-72 object-cover group-hover:scale-110 transition duration-700">
+                </div>
+                <div class="p-8">
+                    <h4
+                        class="text-2xl font-semibold" data-aos="fade-up">
+                        Facial Treatment
+                    </h4>
+                    <p
+                        class="mt-4 text-gray-600">
+                        Refresh and brighten your skin with our signature facial.
+                    </p>
+                    <a href="offer-detail.php"
+                        class="inline-flex items-center gap-2 mt-6 text-primary font-semibold">
+                        Learn More
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+            </div>
+            <div
+                class="group bg-white rounded-[32px] overflow-hidden shadow-lg hover:shadow-2xl transition duration-500">
+                <div class="overflow-hidden">
+                    <img
+                        src="./assets/img/our-services/pic4.jpg"
+                        class="w-full h-72 object-cover group-hover:scale-110 transition duration-700">
+                </div>
+                <div class="p-8">
+                    <h4
+                        class="text-2xl font-semibold" data-aos="fade-up">
+                        Facial Treatment
+                    </h4>
+                    <p
+                        class="mt-4 text-gray-600">
+                        Refresh and brighten your skin with our signature facial.
+                    </p>
+                    <a href="offer-detail.php"
+                        class="inline-flex items-center gap-2 mt-6 text-primary font-semibold">
+                        Learn More
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Section Heading -->
+        <div class="text-center mt-8">
+
+            <!-- View All Button -->
+            <a href="#"
+                class="inline-flex items-center gap-2 mt-6 px-8 py-4 rounded-full btn-primary text-white font-semibold shadow-lg hover:scale-105 transition">
+                View All Offers
+                <i class="ri-arrow-right-line"></i>
+            </a>
         </div>
     </div>
 </section>

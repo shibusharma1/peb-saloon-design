@@ -34,6 +34,7 @@
     <link rel="stylesheet" href="./assets/css/pricing.css">
     <link rel="stylesheet" href="./assets/css/gallery.css">
     <link rel="stylesheet" href="./assets/css/bookappointment.css">
+    <link rel="stylesheet" href="./assets/css/call-ring.css">
     <style>
         body {
             font-family: 'Inter', sans-serif;
@@ -64,7 +65,7 @@
                     </a>
                     <!-- Menu -->
                     <nav class="hidden lg:flex items-center gap-10">
-                        <a href="./" class="nav-link">
+                        <a href="./" class="nav-link active">
                             Home
                         </a>
                         <a href="about.php" class="nav-link">
@@ -96,6 +97,7 @@
                                 shadow-lg
                                 hover:scale-105
                                 transition">
+                            <i class="ri-calendar-line"></i>
                             Book Appointment
                         </a>
                     </div>
@@ -161,6 +163,7 @@
                 <div class="float-animation">
                     <a href="bookappointment.php"
                         class="mt-6 text-center px-6 py-4 rounded-full btn-primary text-white">
+                        <i class="ri-calendar-line"></i>
                         Book Appointment
                     </a>
                 </div>

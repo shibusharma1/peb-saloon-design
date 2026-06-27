@@ -1,75 +1,52 @@
 <?php
 include './includes/header.php'
 ?>
-<!-- <section class="relative h-[450px]">
-
+<section class="pt-42 relative h-[280px] lg:h-[340px] overflow-hidden mb-8">
+    <!-- Background Image -->
     <img
-        src="./assets/img/services-banner.jpg"
+        src="./assets/img/services-banner.png"
+        alt="Service Banner"
         class="absolute inset-0 w-full h-full object-cover">
-
+    <!-- Overlay -->
     <div
-        class="absolute inset-0 bg-gradient-to-r from-[#4A1D38]/90 via-[#4A1D38]/60 to-transparent">
+        class="hero-overlay absolute inset-0">
     </div>
-
+    <!-- Decorative Blur -->
+    <div
+        class="absolute top-0 right-0 w-[500px] h-[500px] rounded-full bg-white/10 blur-3xl">
+    </div>
+    <!-- Content -->
     <div
         class="relative z-10 h-full flex items-center">
-
-        <div class="max-w-7xl mx-auto px-4">
-
-            <span
-                class="uppercase tracking-[4px] text-white/80">
-
-                Professional Beauty Treatments
-
-            </span>
-
-            <h1
-                class="heading-font text-6xl text-white mt-4">
-
-                Our Services
-
-            </h1>
-
-            <p
-                class="text-white/80 mt-6 max-w-xl">
-
-                Discover luxury beauty, skincare and wellness
-                treatments tailored for your individual needs.
-
-            </p>
-
-        </div>
-
-    </div>
-
-</section> -->
-<section class="pt-32 section-light">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <!-- Heading -->
-        <div class="text-center max-w-3xl mx-auto">
-            <span
-                class="uppercase tracking-[4px] text-primary-dark font-semibold text-sm">
-                Our Expertise
-            </span>
-            <h2
-                class="mt-4 text-4xl lg:text-5xl font-semibold text-gray-900" data-aos="fade-up">
-                Luxury Beauty Services
-            </h2>
-            <div class="mt-5">
-                <div class="dlab-separator text-primary style-icon">
-                    <i class="flaticon-spa text-primary"></i>
-                </div>
+        <div
+            class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+            <div
+                class="max-w-3xl">
+                <!-- Badge -->
+                <span
+                    class="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-white/10 backdrop-blur-md text-white text-sm uppercase tracking-[2px]">
+                    <i class="ri-price-tag-3-line"></i>
+                    Our Expertise
+                </span>
+                <!-- Title -->
+                <h1 class="heading-font text-white text-5xl md:text-6xl lg:text-7xl mt-6 leading-tight">
+                    Luxury Beauty Services
+                </h1>
+                <!-- Description -->
+                <p class="text-white/80 text-lg lg:text-xl mt-6 max-w-2xl leading-8">
+                    Discover premium beauty and wellness treatments tailored
+                    to enhance your natural elegance.
+                </p>
             </div>
-            <p
-                class="mt-6 text-gray-600 text-lg">
-                Discover premium beauty and wellness treatments tailored
-                to enhance your natural elegance.
-            </p>
         </div>
+    </div>
+</section>
+<section class="section-light">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <!-- Services -->
         <div
-            class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
-            <!-- Card -->
+            class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                       <!-- Card -->
             <div
                 class="group bg-white rounded-[32px] overflow-hidden shadow-lg hover:shadow-2xl transition duration-500">
                 <div class="overflow-hidden">
@@ -92,13 +69,164 @@ include './includes/header.php'
                         Professional styling, coloring and hair treatment
                         services designed for your unique look.
                     </p>
-                    <a href="#"
+                    <a href="service-detail.php"
                         class="inline-flex items-center gap-2 mt-6 font-semibold text-primary">
                         Explore Service
                         <i class="ri-arrow-right-line"></i>
                     </a>
                 </div>
             </div>
+                        <!-- Card -->
+            <div
+                class="group bg-white rounded-[32px] overflow-hidden shadow-lg hover:shadow-2xl transition duration-500">
+                <div class="overflow-hidden">
+                    <img
+                        src="./assets/img/our-services/pic1.jpg"
+                        alt=""
+                        class="w-full h-80 object-cover group-hover:scale-110 transition duration-700" data-aos="zoom-in-up" data-aos-delay="100">
+                </div>
+                <div class="p-8">
+                    <span
+                        class="text-primary text-sm uppercase tracking-[3px]">
+                        Beauty Care
+                    </span>
+                    <h4
+                        class="mt-3 text-2xl font-semibold text-gray-900" data-aos="fade-up">
+                        Hair Styling
+                    </h4>
+                    <p
+                        class="mt-4 text-gray-600 leading-7">
+                        Professional styling, coloring and hair treatment
+                        services designed for your unique look.
+                    </p>
+                    <a href="service-detail.php"
+                        class="inline-flex items-center gap-2 mt-6 font-semibold text-primary">
+                        Explore Service
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+            </div>
+                        <!-- Card -->
+            <div
+                class="group bg-white rounded-[32px] overflow-hidden shadow-lg hover:shadow-2xl transition duration-500">
+                <div class="overflow-hidden">
+                    <img
+                        src="./assets/img/our-services/pic1.jpg"
+                        alt=""
+                        class="w-full h-80 object-cover group-hover:scale-110 transition duration-700" data-aos="zoom-in-up" data-aos-delay="100">
+                </div>
+                <div class="p-8">
+                    <span
+                        class="text-primary text-sm uppercase tracking-[3px]">
+                        Beauty Care
+                    </span>
+                    <h4
+                        class="mt-3 text-2xl font-semibold text-gray-900" data-aos="fade-up">
+                        Hair Styling
+                    </h4>
+                    <p
+                        class="mt-4 text-gray-600 leading-7">
+                        Professional styling, coloring and hair treatment
+                        services designed for your unique look.
+                    </p>
+                    <a href="service-detail.php"
+                        class="inline-flex items-center gap-2 mt-6 font-semibold text-primary">
+                        Explore Service
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+            </div>
+                        <!-- Card -->
+            <div
+                class="group bg-white rounded-[32px] overflow-hidden shadow-lg hover:shadow-2xl transition duration-500">
+                <div class="overflow-hidden">
+                    <img
+                        src="./assets/img/our-services/pic3.jpg"
+                        alt=""
+                        class="w-full h-80 object-cover group-hover:scale-110 transition duration-700" data-aos="zoom-in-up" data-aos-delay="100">
+                </div>
+                <div class="p-8">
+                    <span
+                        class="text-primary text-sm uppercase tracking-[3px]">
+                        Beauty Care
+                    </span>
+                    <h4
+                        class="mt-3 text-2xl font-semibold text-gray-900" data-aos="fade-up">
+                        Hair Styling
+                    </h4>
+                    <p
+                        class="mt-4 text-gray-600 leading-7">
+                        Professional styling, coloring and hair treatment
+                        services designed for your unique look.
+                    </p>
+                    <a href="service-detail.php"
+                        class="inline-flex items-center gap-2 mt-6 font-semibold text-primary">
+                        Explore Service
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+            </div>
+                        <!-- Card -->
+            <div
+                class="group bg-white rounded-[32px] overflow-hidden shadow-lg hover:shadow-2xl transition duration-500">
+                <div class="overflow-hidden">
+                    <img
+                        src="./assets/img/our-services/pic2.jpg"
+                        alt=""
+                        class="w-full h-80 object-cover group-hover:scale-110 transition duration-700" data-aos="zoom-in-up" data-aos-delay="100">
+                </div>
+                <div class="p-8">
+                    <span
+                        class="text-primary text-sm uppercase tracking-[3px]">
+                        Beauty Care
+                    </span>
+                    <h4
+                        class="mt-3 text-2xl font-semibold text-gray-900" data-aos="fade-up">
+                        Hair Styling
+                    </h4>
+                    <p
+                        class="mt-4 text-gray-600 leading-7">
+                        Professional styling, coloring and hair treatment
+                        services designed for your unique look.
+                    </p>
+                    <a href="service-detail.php"
+                        class="inline-flex items-center gap-2 mt-6 font-semibold text-primary">
+                        Explore Service
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+            </div>
+                        <!-- Card -->
+            <div
+                class="group bg-white rounded-[32px] overflow-hidden shadow-lg hover:shadow-2xl transition duration-500">
+                <div class="overflow-hidden">
+                    <img
+                        src="./assets/img/our-services/pic1.jpg"
+                        alt=""
+                        class="w-full h-80 object-cover group-hover:scale-110 transition duration-700" data-aos="zoom-in-up" data-aos-delay="100">
+                </div>
+                <div class="p-8">
+                    <span
+                        class="text-primary text-sm uppercase tracking-[3px]">
+                        Beauty Care
+                    </span>
+                    <h4
+                        class="mt-3 text-2xl font-semibold text-gray-900" data-aos="fade-up">
+                        Hair Styling
+                    </h4>
+                    <p
+                        class="mt-4 text-gray-600 leading-7">
+                        Professional styling, coloring and hair treatment
+                        services designed for your unique look.
+                    </p>
+                    <a href="service-detail.php"
+                        class="inline-flex items-center gap-2 mt-6 font-semibold text-primary">
+                        Explore Service
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+            </div>
+            
             <!-- Repeat cards -->
         </div>
         <!-- CTA -->

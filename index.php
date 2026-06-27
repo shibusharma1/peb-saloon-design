@@ -1,6 +1,7 @@
 <?php
 include './includes/header.php'
 ?>
+
 <section class="relative h-screen overflow-hidden">
     <!-- Background Image -->
     <img src="./assets/img/background/bg4.jpg"
@@ -116,7 +117,7 @@ include './includes/header.php'
                 </div>
                 <!-- Button -->
                 <div class="text-center mt-12">
-                    <a href="#"
+                    <a href="about.php"
                         class="inline-flex items-center gap-3 px-8 py-4 rounded-full btn-primary text-white font-semibold shadow-lg hover:scale-105 transition">
                         Read More
                         <i class="ri-arrow-right-line"></i>
@@ -152,7 +153,7 @@ include './includes/header.php'
         </div>
         <!-- Services -->
         <div
-            class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
+            class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
             <!-- Card -->
             <div
                 class="group bg-white rounded-[32px] overflow-hidden shadow-lg hover:shadow-2xl transition duration-500">
@@ -176,7 +177,65 @@ include './includes/header.php'
                         Professional styling, coloring and hair treatment
                         services designed for your unique look.
                     </p>
-                    <a href="#"
+                    <a href="service-detail.php"
+                        class="inline-flex items-center gap-2 mt-6 font-semibold text-primary">
+                        Explore Service
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+            </div>
+            <div
+                class="group bg-white rounded-[32px] overflow-hidden shadow-lg hover:shadow-2xl transition duration-500">
+                <div class="overflow-hidden">
+                    <img
+                        src="./assets/img/our-services/pic1.jpg"
+                        alt=""
+                        class="w-full h-80 object-cover group-hover:scale-110 transition duration-700" data-aos="zoom-in-up" data-aos-delay="100">
+                </div>
+                <div class="p-8">
+                    <span
+                        class="text-primary text-sm uppercase tracking-[3px]">
+                        Beauty Care
+                    </span>
+                    <h4
+                        class="mt-3 text-2xl font-semibold text-gray-900" data-aos="fade-up">
+                        Hair Styling
+                    </h4>
+                    <p
+                        class="mt-4 text-gray-600 leading-7">
+                        Professional styling, coloring and hair treatment
+                        services designed for your unique look.
+                    </p>
+                    <a href="service-detail.php"
+                        class="inline-flex items-center gap-2 mt-6 font-semibold text-primary">
+                        Explore Service
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+            </div>
+            <div
+                class="group bg-white rounded-[32px] overflow-hidden shadow-lg hover:shadow-2xl transition duration-500">
+                <div class="overflow-hidden">
+                    <img
+                        src="./assets/img/our-services/pic1.jpg"
+                        alt=""
+                        class="w-full h-80 object-cover group-hover:scale-110 transition duration-700" data-aos="zoom-in-up" data-aos-delay="100">
+                </div>
+                <div class="p-8">
+                    <span
+                        class="text-primary text-sm uppercase tracking-[3px]">
+                        Beauty Care
+                    </span>
+                    <h4
+                        class="mt-3 text-2xl font-semibold text-gray-900" data-aos="fade-up">
+                        Hair Styling
+                    </h4>
+                    <p
+                        class="mt-4 text-gray-600 leading-7">
+                        Professional styling, coloring and hair treatment
+                        services designed for your unique look.
+                    </p>
+                    <a href="service-detail.php"
                         class="inline-flex items-center gap-2 mt-6 font-semibold text-primary">
                         Explore Service
                         <i class="ri-arrow-right-line"></i>
@@ -186,8 +245,8 @@ include './includes/header.php'
             <!-- Repeat cards -->
         </div>
         <!-- CTA -->
-        <div class="text-center mt-16">
-            <a href="#"
+        <div class="text-center mt-12">
+            <a href="services.php"
                 class="inline-flex items-center gap-3 px-8 py-4 rounded-full btn-primary text-white font-semibold shadow-lg hover:scale-105 transition">
                 View All Services
                 <i class="ri-arrow-right-line"></i>
@@ -196,7 +255,7 @@ include './includes/header.php'
     </div>
 </section>
 
-<section class=section-white overflow-hidden">
+<section class="section-white overflow-hidden">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <!-- Heading -->
         <div class="text-center max-w-3xl mx-auto">
@@ -211,7 +270,7 @@ include './includes/header.php'
         </div>
         <!-- Featured Offer -->
         <div
-            class="mt-16 bg-white rounded-[40px] overflow-hidden shadow-xl">
+            class="mt-12 bg-white rounded-[40px] overflow-hidden shadow-xl">
             <div
                 class="grid lg:grid-cols-2 items-center">
                 <!-- Content -->
@@ -254,12 +313,12 @@ include './includes/header.php'
                     </div>
                     <div
                         class="mt-10 flex flex-wrap gap-4">
-                        <a href="#"
+                        <a href="bookappointment.php"
                             class="inline-flex items-center gap-2 px-8 py-4 rounded-full btn-primary text-white font-semibold">
                             Book Now
                             <i class="ri-arrow-right-line"></i>
                         </a>
-                        <a href="#"
+                        <a href="offer-detail.php"
                             class="inline-flex items-center gap-2 px-8 py-4 rounded-full border border-[#7B234B] text-primary font-semibold">
                             Learn More
                         </a>
@@ -278,6 +337,7 @@ include './includes/header.php'
         
     </div>
 </section>
+
 <?php
 include './includes/footer.php'
 ?>

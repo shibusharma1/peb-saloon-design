@@ -1,7 +1,8 @@
 <?php
 include './includes/header.php'
 ?>
-<section class="pt-32 section-light">
+    
+<section class="section-light">
     <div class="max-w-7xl mx-auto px-4">
         <div class="grid lg:grid-cols-12 gap-10">
             <div class="lg:hidden mb-6">
@@ -66,7 +67,7 @@ include './includes/header.php'
                             Limited-time luxury nail extension package
                             including consultation and finishing.
                         </p>
-                        <a href="#"
+                        <a href="bookappointment.php"
                             class="btn-primary mt-6">
                             Claim Offer
                         </a>
@@ -79,46 +80,60 @@ include './includes/header.php'
                     class="bg-white rounded-[40px] overflow-hidden shadow-xl">
                     <img
                         src="./assets/img/nailextension.png"
-                        class="w-full h-[450px] object-cover">
-                    <div
-                        class="p-10 lg:p-14">
+                        class="w-full h-[380px] object-cover">
+                    <div class="p-6 lg:p-8">
                         <span
                             class="inline-flex px-4 py-2 rounded-full bg-primary/10 text-primary">
                             Premium Beauty Treatment
                         </span>
                         <h1
-                            class="heading-font text-5xl mt-6">
+                            class="heading-font px-4 text-4xl">
                             Nail Extension
                         </h1>
                         <p
-                            class="text-muted mt-8 leading-8">
-                            Beautiful, long-lasting nail extensions
-                            designed to enhance your style and confidence.
+                            class="text-muted px-4 mt-4 leading-8">
+                            Transform your nails with our premium nail extension services, designed to enhance both beauty and confidence.
+                            Our expert nail technicians carefully craft flawless extensions that add length, strength, and elegance while
+                            maintaining a natural and comfortable feel. Whether you prefer a classic, sophisticated style or trendy nail art,
+                            we offer customized solutions tailored to your preferences. Using high-quality products and precise techniques,
+                            we ensure long-lasting durability, smooth finishing, and a luxurious look that complements your personal style.
+
                         </p>
                     </div>
                 </div>
-                <div
-                    class="bg-white rounded-[40px] shadow-xl p-10 mt-10">
+                <div class="bg-white rounded-[40px] shadow-xl p-10 mt-8">
                     <h3
-                        class="heading-font text-4xl mb-8">
+                        class="heading-font text-3xl mb-6">
                         Pricing
                     </h3>
                     <div class="space-y-4">
                         <div
-                            class="flex justify-between items-center p-5 rounded-2xl bg-light">
+                            class="flex justify-between items-center p-5 rounded-2xl bg-light hover:bg-white hover:border hover:border-primary/40 hover:shadow-lg hover:-translate-y-1 transition-all duration-300 cursor-pointer">
                             <span>Basic Nail Extension</span>
                             <strong class="text-primary">
-                                NRs. 35
+                                £35
                             </strong>
                         </div>
+
                         <div
-                            class="flex justify-between items-center p-5 rounded-2xl bg-light">
+                            class="flex justify-between items-center p-5 rounded-2xl bg-light hover:bg-white hover:border hover:border-primary/40 hover:shadow-lg hover:-translate-y-1 transition-all duration-300 cursor-pointer">
                             <span>Luxury Nail Extension</span>
                             <strong class="text-primary">
-                                NRs. 50
+                                £50
                             </strong>
                         </div>
+
                     </div>
+                    <!-- Add button here -->
+                    <div class="mt-6 text-center">
+                        <a href="bookappointment.php"
+                            class="btn-primary inline-flex items-center gap-2">
+                            <i class="ri-calendar-line"></i>
+                            Book Appointment Now
+                        </a>
+
+                    </div>
+
                 </div>
                 <div
                     class="bg-white rounded-[40px] shadow-xl p-10 mt-10">
@@ -182,7 +197,7 @@ include './includes/header.php'
     </div>
     <!-- </div> -->
 </section>
-<section class="section-light">
+<section class="section-light" style="padding-top: 0px !important;">
     <div class="max-w-7xl mx-auto px-4">
         <div
             class="rounded-[40px]
@@ -205,8 +220,8 @@ include './includes/header.php'
                 </div>
                 <a
                     href="tel:+441234567890"
-                    class="bg-white text-primary px-8 py-4 rounded-full font-semibold">
-                    <i class="ri-phone-line mr-2"></i>
+                    class="group bg-white text-primary px-8 py-4 rounded-full font-semibold inline-flex items-center">
+                    <i class="ri-phone-line mr-2 call-icon"></i>
                     Call Us Now
                 </a>
             </div>

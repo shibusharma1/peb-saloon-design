@@ -86,9 +86,9 @@
         <div
             class="bg-white rounded-[40px] shadow-xl overflow-hidden">
             <div
-                class="p-10 border-b">
+                class="pb-10 px-10 pt-0 border-b">
                 <h3
-                    class="heading-font text-4xl lg:text-5xl text-center">
+                    class="heading-font text-3xl lg:text-4xl text-center">
                     Threading Treatments
                 </h3>
                 <p
@@ -136,9 +136,9 @@
         <div
             class="bg-white rounded-[40px] shadow-xl overflow-hidden">
             <div
-                class="p-10 border-b">
+                class="pb-10 px-10 pt-0 border-b">
                 <h3
-                    class="heading-font text-4xl lg:text-5xl text-center">
+                    class="heading-font text-3xl lg:text-4xl text-center">
                     Threading Treatments
                 </h3>
                 <p
@@ -186,9 +186,9 @@
         <div
             class="bg-white rounded-[40px] shadow-xl overflow-hidden">
             <div
-                class="p-10 border-b">
+                class="pb-10 px-10 pt-0 border-b">
                 <h3
-                    class="heading-font text-4xl lg:text-5xl text-center">
+                    class="heading-font text-3xl lg:text-4xl text-center">
                     Threading Treatments
                 </h3>
                 <p
@@ -236,9 +236,9 @@
         <div
             class="bg-white rounded-[40px] shadow-xl overflow-hidden">
             <div
-                class="p-10 border-b">
+                class="pb-10 px-10 pt-0 border-b">
                 <h3
-                    class="heading-font text-4xl lg:text-5xl text-center">
+                    class="heading-font text-3xl lg:text-4xl text-center">
                     Threading Treatments
                 </h3>
                 <p
@@ -281,10 +281,10 @@
         </div>
     </div>
 </section>
-<section>
+<section style="padding-top: 0 !important;">
     <div class="max-w-6xl mx-auto px-4">
         <div
-            class="relative overflow-hidden rounded-[40px] p-10 lg:p-16 text-center text-white">
+            class="relative overflow-hidden rounded-[40px] pb-10 px-10 pt-0 lg:p-16 text-center text-white">
             <!-- Background -->
             <div
                 class="absolute inset-0"
@@ -321,13 +321,14 @@
                 </p>
                 <div
                     class="flex flex-wrap justify-center gap-4 mt-10">
-                    <a href="#"
+                    <a href="bookappointment.php"
                         class="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-white text-primary font-semibold hover:scale-105 transition">
-                    Book Appointment
+                    <i class="ri-calendar-line"></i>
+                        Book Appointment
                     <i class="ri-arrow-right-line"></i>
                     </a>
                     <a href="tel:+441234567890"
-                        class="inline-flex items-center gap-2 px-8 py-4 rounded-full border border-white text-white hover:bg-white hover:text-primary transition">
+                        class="group inline-flex items-center gap-2 px-8 py-4 rounded-full border border-white text-white hover:bg-white hover:text-[var(--primary)] transition">
                     <i class="ri-phone-line"></i>
                     Call Us
                     </a>

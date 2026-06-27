@@ -2,22 +2,7 @@
     include './includes/header.php'
     ?>
 <style>
-    .social-circle {
-    width: 48px;
-    height: 48px;
-    border-radius: 999px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: var(--bg-light);
-    color: var(--primary);
-    transition: .3s ease;
-    }
-    .social-circle:hover {
-    background: var(--primary);
-    color: white;
-    transform: translateY(-3px);
-    }
+
 </style>
 <section class="pt-42 relative h-[280px] lg:h-[340px] overflow-hidden mb-8">
     <!-- Background Image -->
@@ -62,15 +47,14 @@
         </div>
     </div>
 </section>
-<section class="pb-24">
+<section class="section-white">
     <div class="max-w-7xl mx-auto px-4">
         <div
             class="grid lg:grid-cols-12 gap-8 items-stretch">
             <!-- Map -->
             <div
                 class="lg:col-span-8">
-                <div
-                    class="overflow-hidden rounded-[40px] shadow-xl h-full">
+                <div id="location" class="overflow-hidden rounded-[40px] shadow-xl h-full">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2010.5843009171663!2d-0.8917553!3d52.2389937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48770edb14239eb7%3A0x3a32e6077f65f3a3!2sProfessional%20Elegance%20Beauty!5e1!3m2!1sen!2snp!4v1782324074755!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" class="w-full h-[650px]" referrerpolicy="strict-origin-when-cross-origin"></iframe>
                 </div>
             </div>
@@ -161,7 +145,7 @@
         </div>
     </div>
 </section>
-<section class="pb-24">
+<section class="section-light">
     <div class="max-w-7xl mx-auto px-4">
         <div
             class="bg-white rounded-[40px] shadow-xl overflow-hidden">
@@ -225,6 +209,7 @@
                         class="flex flex-wrap gap-4 mt-10">
                         <a href="#"
                             class="btn-primary">
+                            <i class="ri-calendar-line"></i>
                         Book Appointment
                         </a>
                         <a href="tel:01604315484"
