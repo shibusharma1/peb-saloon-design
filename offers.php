@@ -29,7 +29,7 @@ include './includes/header.php'
                     Exclusive Offers
                 </span>
                 <!-- Title -->
-                <h1 class="heading-font text-white text-4xl md:text-5xl lg:text-6xl mt-6 leading-tight">
+                <h1 class="heading-font text-white text-3xl md:text-4xl lg:text-5xl mt-6 leading-tight">
                     Beauty Promotions You'll Love
                 </h1>
                 <!-- Description -->
@@ -56,13 +56,14 @@ include './includes/header.php'
                         <div class="bg-white rounded-[40px] overflow-hidden shadow-xl">
                             <div class="grid lg:grid-cols-2 items-center">
 
-                                <div class="order-2 lg:order-1 p-8 lg:p-16">
+                                <div class="order-2 lg:order-1 p-8 lg:p-16" data-aos="fade-right"
+                                    data-aos-duration="800">
 
                                     <span class="inline-flex px-4 py-2 rounded-full bg-[#7B234B]/10 text-primary font-semibold text-sm">
                                         FEATURED OFFER
                                     </span>
 
-                                    <h2 class="mt-6 text-3xl md:text-4xl lg:text-[42px] font-semibold text-gray-900">
+                                    <h2 class="mt-6 text-2xl md:text-3xl lg:text-[34px] font-semibold text-gray-900">
                                         Hot Stone Massage
                                     </h2>
 
@@ -108,11 +109,12 @@ include './includes/header.php'
 
                                 </div>
 
-                                <div class="order-1 lg:order-2 relative h-full">
+                                <div class="order-1 lg:order-2 relative h-full" data-aos="fade-left"
+                                    data-aos-duration="1000">
                                     <img
                                         src="./assets/img/background/bg2.jpg"
                                         alt=""
-                                        class="w-full h-[280px] sm:h-[350px] lg:h-full object-cover">
+                                        class="featured-slide-image w-full h-[280px] sm:h-[350px] lg:h-full object-cover">
                                 </div>
 
                             </div>
@@ -124,13 +126,14 @@ include './includes/header.php'
                         <div class="bg-white rounded-[40px] overflow-hidden shadow-xl">
                             <div class="grid lg:grid-cols-2 items-center">
 
-                                <div class="order-2 lg:order-1 p-8 lg:p-16">
+                                <div class="order-2 lg:order-1 p-8 lg:p-16" data-aos="fade-right"
+                                    data-aos-duration="800">
 
                                     <span class="inline-flex px-4 py-2 rounded-full bg-[#7B234B]/10 text-primary font-semibold text-sm">
                                         FEATURED OFFER
                                     </span>
 
-                                    <h2 class="mt-6 text-3xl md:text-4xl lg:text-[42px] font-semibold text-gray-900">
+                                    <h2 class="mt-6 text-2xl md:text-3xl lg:text-[34px] font-semibold text-gray-900">
                                         Luxury Facial
                                     </h2>
 
@@ -165,21 +168,25 @@ include './includes/header.php'
                                             class="inline-flex items-center gap-2 px-8 py-4 rounded-full btn-primary btn-luxury text-white font-semibold">
                                             Book Now
                                         </a>
+                                        <a href="offer-detail.php"
+                                            class="inline-flex items-center gap-2 px-8 py-4 rounded-full border border-[#7B234B] text-primary font-semibold">
+                                            Learn More
+                                        </a>
                                     </div>
 
                                 </div>
 
-                                <div class="order-1 lg:order-2 relative h-full">
+                                <div class="order-1 lg:order-2 relative h-full" data-aos="fade-left"
+                                    data-aos-duration="1000">
                                     <img
                                         src="./assets/img/background/bg1.jpg"
                                         alt=""
-                                        class="w-full h-[280px] sm:h-[350px] lg:h-full object-cover">
+                                        class="featured-slide-image w-full h-[280px] sm:h-[350px] lg:h-full object-cover">
                                 </div>
 
                             </div>
                         </div>
                     </div>
-
                 </div>
 
             </div>
@@ -193,7 +200,7 @@ include './includes/header.php'
             <button class="featured-next">
                 <i class="ri-arrow-right-s-line"></i>
             </button>
-            <div class="swiper-pagination mt-4px"></div>
+            <div class="swiper-pagination mt-4px lg:hidden md:hidden"></div>
         </div>
 
         <!-- Section Heading -->
@@ -204,7 +211,7 @@ include './includes/header.php'
                 More Offers
             </span>
 
-            <h2 class="heading-font text-3xl md:text-4xl lg:text-[42px] text-gray-900 mt-5">
+            <h2 class="heading-font text-2xl md:text-3xl lg:text-[34px] text-gray-900 mt-5">
                 Our Other Offers
             </h2>
 

@@ -31,7 +31,7 @@ include './includes/header.php'
                 </span>
                 <!-- Title -->
                 <h1
-                    class="heading-font text-white text-4xl md:text-5xl lg:text-6xl mt-6 leading-tight">
+                    class="heading-font text-white text-3xl md:text-4xl lg:text-5xl mt-6 leading-tight">
                     Let's Connect
                 </h1>
                 <!-- Description -->
@@ -157,7 +157,7 @@ include './includes/header.php'
                             Hot Stone Massage
                         </h2>
                         <p
-                            class="text-muted leading-8 mt-4">
+                            class="text-muted text-base lg:text-[17px] leading-8 mt-4">
                             Indulge yourself with our luxurious Hot Stone Massage,
                             carefully designed to melt away stress, relieve muscle
                             tension and restore complete body relaxation using
@@ -445,7 +445,7 @@ include './includes/header.php'
                 You May Also Like
             </h2>
             <p
-                class="mt-6 text-muted leading-8">
+                class="mt-6 text-muted text-base lg:text-[17px] leading-8">
                 Discover more beauty treatments and exclusive offers
                 carefully selected to help you look and feel your best.
             </p>

@@ -331,6 +331,14 @@ section {
   transition: 0.35s ease;
 }
 
+.featured-slide-image {
+  transition: transform 8s ease;
+}
+
+.swiper-slide-active .featured-slide-image {
+  transform: scale(1.08);
+}
+
 .featured-prev {
   left: -30px;
 }

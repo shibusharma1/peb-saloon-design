@@ -42,7 +42,7 @@ include './includes/header.php'
                 </span>
                 <!-- Title -->
                 <h1
-                    class="heading-font text-white text-4xl md:text-5xl lg:text-6xl mt-6 leading-tight" data-aos="fade-up"
+                    class="heading-font text-white text-3xl md:text-4xl lg:text-5xl mt-6 leading-tight" data-aos="fade-up"
                     data-aos-delay="100"
                     data-aos-duration="900">
                     Let's Connect

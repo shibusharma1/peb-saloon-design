@@ -30,7 +30,7 @@ include './includes/header.php'
                 </span>
                 <!-- Title -->
                 <h1
-                    class="heading-font text-white text-4xl md:text-5xl lg:text-6xl mt-6 leading-tight">
+                    class="heading-font text-white text-3xl md:text-4xl lg:text-5xl mt-6 leading-tight">
                     About Us
                 </h1>
                 <!-- Description -->
@@ -46,7 +46,7 @@ include './includes/header.php'
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         <!-- Founder -->
-        <div class="grid lg:grid-cols-2 gap-20 items-center">
+        <div class="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             <!-- Image -->
             <div class="relative">
                 <div class="absolute -bottom-8 -left-8 w-52 h-52 bg-primary/10 rounded-full blur-3xl">
@@ -57,7 +57,7 @@ include './includes/header.php'
                 <img
                     src="./assets/img/founder.png"
                     alt="Founder"
-                    class="relative z-10 rounded-[40px] shadow-[0_30px_70px_rgba(0,0,0,0.18)] w-full h-[560px] object-cover transition duration-500 hover:scale-[1.01]" data-aos="fade-right" data-aos-delay="100">
+                    class="relative z-10 rounded-[40px] shadow-[0_30px_70px_rgba(0,0,0,0.18)] w-full h-[560px] object-cover transition duration-500 hover:scale-[1.01]" data-aos="fade-right" data-aos-delay="1000">
                 <div class="absolute bottom-8 right-8 z-20 bg-white/90 backdrop-blur-xl rounded-3xl px-6 py-5 shadow-xl border border-white/50">
                     <h4 class="text-3xl font-bold text-primary">10+</h4>
                     <p class="text-sm text-muted uppercase tracking-wide">
@@ -72,10 +72,10 @@ include './includes/header.php'
                     Founder & Beauty Therapist
                 </span>
                 <h2
-                    class="heading-font text-3xl md:text-4xl lg:text-[42px] mt-6 text-dark">
+                    class="heading-font text-2xl md:text-3xl lg:text-[34px] mt-6 text-dark">
                     Sabita Bhari
                 </h2>
-                <p class="mt-8 text-muted leading-8 text-[16.5px]">
+                <p class="mt-8 text-muted text-[16px] lg:text-[17px] leading-8">
                     Qualified beauty therapist with NVQ Level 3 and
                     more than 10 years of experience in beauty,
                     skincare and professional salon treatments.
@@ -91,13 +91,13 @@ include './includes/header.php'
                         <span>Certified Expert</span>
                     </div>
                 </div>
-                <p class="mt-6 text-muted leading-8 text-[16.5px]">
+                <p class="mt-6 text-muted text-[16px] lg:text-[17px] leading-8">
                     Professional Elegance Beauty was established in 2012
                     with a vision to provide premium beauty services,
                     exceptional customer satisfaction and professional
                     treatment standards.
                 </p>
-                <p class="mt-6 text-muted leading-8 text-[16.5px]">
+                <p class="mt-6 text-muted text-[16px] lg:text-[17px] leading-8">
                     Today, the salon proudly serves clients with
                     personalized beauty treatments while maintaining
                     internationally recognized professional standards.
@@ -111,7 +111,7 @@ include './includes/header.php'
     <div class="max-w-7xl mx-auto px-4">
         <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div class="luxury-card p-8 text-center">
-                <h3 class="text-primary text-4xl font-bold" data-aos="fade-up" data-aos-delay="0">
+                <h3 class="text-primary text-3xl lg:text-[32px] font-bold" data-aos="fade-up" data-aos-delay="0">
                     10+
                 </h3>
                 <p class="mt-4">
@@ -119,7 +119,7 @@ include './includes/header.php'
                 </p>
             </div>
             <div class="luxury-card p-8 text-center">
-                <h3 class="text-primary text-4xl font-bold" data-aos="fade-up" data-aos-delay="100">
+                <h3 class="text-primary text-3xl lg:text-[32px] font-bold" data-aos="fade-up" data-aos-delay="100">
                     5000+
                 </h3>
                 <p class="mt-4">
@@ -127,7 +127,7 @@ include './includes/header.php'
                 </p>
             </div>
             <div class="luxury-card p-8 text-center">
-                <h3 class="text-primary text-4xl font-bold" data-aos="fade-up" data-aos-delay="300">
+                <h3 class="text-primary text-3xl lg:text-[32px] font-bold" data-aos="fade-up" data-aos-delay="300">
                     NVQ
                 </h3>
                 <p class="mt-4">
@@ -135,7 +135,7 @@ include './includes/header.php'
                 </p>
             </div>
             <div class="luxury-card p-8 text-center">
-                <h3 class="text-primary text-4xl font-bold" data-aos="fade-up" data-aos-delay="400">
+                <h3 class="text-primary text-3xl lg:text-[32px] font-bold" data-aos="fade-up" data-aos-delay="400">
                     BABTAC
                 </h3>
                 <p class="mt-4">
@@ -147,10 +147,10 @@ include './includes/header.php'
 </section>
 <section class="section-light">
     <div class="max-w-4xl mx-auto px-4 text-center">
-        <h2 class="heading-font text-4xl text-dark" data-aos="fade-up" data-aos-delay="100">
+        <h2 class="heading-font text-3xl text-dark" data-aos="fade-up" data-aos-delay="100">
             Connect With Us
         </h2>
-        <p class="mt-6 text-muted">
+        <p class="mt-6 text-muted text-[16px] lg:text-[17px] leading-8">
             Follow our latest beauty transformations,
             offers and updates.
         </p>

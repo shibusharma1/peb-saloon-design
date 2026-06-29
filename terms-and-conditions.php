@@ -51,7 +51,7 @@ include './includes/header.php'
                             <h2 class="heading-font text-4xl mt-3">
                                 General Terms & Conditions
                             </h2>
-                            <p class="mt-6 text-muted leading-8">
+                            <p class="mt-6 text-muted text-base lg:text-[17px] leading-8">
                                 To ensure every client enjoys the best possible
                                 salon experience, please review our booking
                                 policies before your appointment.
@@ -107,7 +107,7 @@ include './includes/header.php'
                                 <h2 class="heading-font text-4xl mt-3">
                                     Cancellation Policy
                                 </h2>
-                                <p class="mt-6 text-muted leading-8">
+                                <p class="mt-6 text-muted text-base lg:text-[17px] leading-8">
                                     We kindly request at least 24 hours notice if you need to
                                     cancel or reschedule your appointment.
                                 </p>
@@ -167,7 +167,7 @@ include './includes/header.php'
                                         Patch Test Requirement
                                     </h2>
                                     <p
-                                        class="mt-6 text-muted leading-8">
+                                        class="mt-6 text-muted text-base lg:text-[17px] leading-8">
                                         Your safety is our highest priority. Certain beauty
                                         treatments require a patch test before your appointment
                                         to ensure that the products are suitable for your skin.
@@ -250,7 +250,7 @@ include './includes/header.php'
                                             We're Here To Help
                                         </h2>
                                         <p
-                                            class="mt-6 text-muted leading-8">
+                                            class="mt-6 text-muted text-base lg:text-[17px] leading-8">
                                             If you have any questions regarding our salon policies,
                                             bookings or treatments, our friendly team will be happy
                                             to assist you.
