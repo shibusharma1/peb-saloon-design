@@ -59,26 +59,31 @@ include './includes/header.php'
                                 <div class="order-2 lg:order-1 p-8 lg:p-16" data-aos="fade-right"
                                     data-aos-duration="800">
 
-                                    <span class="inline-flex px-4 py-2 rounded-full bg-[#7B234B]/10 text-primary font-semibold text-sm">
+                                    <span class="inline-flex px-4 py-2 rounded-full bg-[#7B234B]/10 text-primary font-semibold text-sm" data-aos="fade-up"
+                                        data-aos-delay="0">
                                         FEATURED OFFER
                                     </span>
 
-                                    <h2 class="mt-6 text-2xl md:text-3xl lg:text-[34px] font-semibold text-gray-900">
+                                    <h2 class="mt-6 text-2xl md:text-3xl lg:text-[34px] font-semibold text-gray-900" data-aos="fade-up"
+                                        data-aos-delay="100">
                                         Hot Stone Massage
                                     </h2>
 
-                                    <p class="mt-6 text-base lg:text-[17px] text-gray-600 leading-8">
+                                    <p class="mt-6 text-base lg:text-[17px] text-gray-600 leading-8" data-aos="fade-up"
+                                        data-aos-delay="200">
                                         Experience deep relaxation with our luxurious
                                         Hot Stone Massage.
                                     </p>
 
-                                    <div class="hidden sm:grid sm:grid-cols-2 gap-4 mt-8">
+                                    <div class="hidden sm:grid sm:grid-cols-2 gap-4 mt-8" data-aos="fade-up"
+                                        data-aos-delay="300">
                                         <div class="flex items-center gap-3">
                                             <i class="ri-check-line text-primary text-xl"></i>
                                             <span>90 Minute Session</span>
                                         </div>
 
-                                        <div class="flex items-center gap-3">
+                                        <div class="flex items-center gap-3" data-aos="fade-up"
+                                            data-aos-delay="400">
                                             <i class="ri-check-line text-primary text-xl"></i>
                                             <span>Premium Oils</span>
                                         </div>
@@ -88,13 +93,15 @@ include './includes/header.php'
                                             <span>Relaxing Atmosphere</span>
                                         </div>
 
-                                        <div class="flex items-center gap-3">
+                                        <div class="flex items-center gap-3" data-aos="fade-up"
+                                            data-aos-delay="500">
                                             <i class="ri-check-line text-primary text-xl"></i>
                                             <span>Expert Therapists</span>
                                         </div>
                                     </div>
 
-                                    <div class="mt-10 flex flex-wrap gap-4">
+                                    <div class="mt-10 flex flex-wrap gap-4" data-aos="fade-up"
+                                        data-aos-delay="600">
                                         <a href="bookappointment.php"
                                             class="inline-flex items-center gap-2 px-8 py-4 rounded-full btn-primary btn-luxury text-white font-semibold">
                                             Book Now
@@ -129,41 +136,49 @@ include './includes/header.php'
                                 <div class="order-2 lg:order-1 p-8 lg:p-16" data-aos="fade-right"
                                     data-aos-duration="800">
 
-                                    <span class="inline-flex px-4 py-2 rounded-full bg-[#7B234B]/10 text-primary font-semibold text-sm">
+                                    <span class="inline-flex px-4 py-2 rounded-full bg-[#7B234B]/10 text-primary font-semibold text-sm" data-aos="fade-up"
+                                        data-aos-delay="0">
                                         FEATURED OFFER
                                     </span>
 
-                                    <h2 class="mt-6 text-2xl md:text-3xl lg:text-[34px] font-semibold text-gray-900">
+                                    <h2 class="mt-6 text-2xl md:text-3xl lg:text-[34px] font-semibold text-gray-900" data-aos="fade-up"
+                                        data-aos-delay="100">
                                         Luxury Facial
                                     </h2>
 
-                                    <p class="mt-6 text-base lg:text-[17px] text-gray-600 leading-8">
+                                    <p class="mt-6 text-base lg:text-[17px] text-gray-600 leading-8" data-aos="fade-up"
+                                        data-aos-delay="200">
                                         Rejuvenate your skin with our signature
                                         luxury facial treatment.
                                     </p>
-                                    <div class="hidden sm:grid sm:grid-cols-2 gap-4 mt-8">
+                                    <div class="hidden sm:grid sm:grid-cols-2 gap-4 mt-8" data-aos="fade-up"
+                                        data-aos-delay="300">
                                         <div class="flex items-center gap-3">
                                             <i class="ri-check-line text-primary text-xl"></i>
                                             <span>90 Minute Session</span>
                                         </div>
 
-                                        <div class="flex items-center gap-3">
+                                        <div class="flex items-center gap-3" data-aos="fade-up"
+                                            data-aos-delay="400">
                                             <i class="ri-check-line text-primary text-xl"></i>
                                             <span>Premium Oils</span>
                                         </div>
 
-                                        <div class="flex items-center gap-3">
+                                        <div class="flex items-center gap-3" data-aos="fade-up"
+                                            data-aos-delay="500">
                                             <i class="ri-check-line text-primary text-xl"></i>
                                             <span>Relaxing Atmosphere</span>
                                         </div>
 
-                                        <div class="flex items-center gap-3">
+                                        <div class="flex items-center gap-3" data-aos="fade-up"
+                                            data-aos-delay="600">
                                             <i class="ri-check-line text-primary text-xl"></i>
                                             <span>Expert Therapists</span>
                                         </div>
                                     </div>
 
-                                    <div class="mt-10">
+                                    <div class="mt-10" data-aos="fade-up"
+                                        data-aos-delay="700">
                                         <a href="bookappointment.php"
                                             class="inline-flex items-center gap-2 px-8 py-4 rounded-full btn-primary btn-luxury text-white font-semibold">
                                             Book Now
@@ -187,6 +202,8 @@ include './includes/header.php'
                             </div>
                         </div>
                     </div>
+
+
                 </div>
 
             </div>
