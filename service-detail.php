@@ -2,7 +2,6 @@
 include './includes/header.php'
 ?>
 
-
 <section class="section-light">
     <div class="max-w-7xl mx-auto px-4">
         <div class="grid lg:grid-cols-12 gap-10">

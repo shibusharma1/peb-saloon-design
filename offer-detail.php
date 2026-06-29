@@ -1,25 +1,7 @@
 <?php
 include './includes/header.php'
 ?>
-<style>
-    .group img {
-        transition: transform .7s ease;
-    }
 
-    .group:hover img {
-        transform: scale(1.08);
-    }
-
-    .group {
-        transition: .4s ease;
-    }
-
-    .group:hover {
-        box-shadow:
-            0 20px 60px rgba(177, 50, 122, .18);
-        transform: translateY(-10px);
-    }
-</style>
 <section class="pt-42 relative h-[280px] lg:h-[340px] overflow-hidden mb-8">
     <!-- Background Image -->
     <img
@@ -49,12 +31,12 @@ include './includes/header.php'
                 </span>
                 <!-- Title -->
                 <h1
-                    class="heading-font text-white text-5xl md:text-6xl lg:text-7xl mt-6 leading-tight">
+                    class="heading-font text-white text-4xl md:text-5xl lg:text-6xl mt-6 leading-tight">
                     Let's Connect
                 </h1>
                 <!-- Description -->
                 <p
-                    class="hidden lg:block text-white/80 text-lg lg:text-xl mt-6 max-w-2xl leading-8">
+                    class="hidden lg:block text-white/80 text-base lg:text-[17px] mt-6 max-w-2xl leading-8">
                     Whether you're booking your next beauty treatment,
                     looking for professional advice, or simply have a question,
                     our team would love to hear from you.

@@ -1,7 +1,6 @@
 <?php
 include './includes/header.php'
 ?>
-
 <section class="relative h-screen overflow-hidden">
     <!-- Background Image -->
     <img src="./assets/img/background/bg4.jpg"
@@ -18,11 +17,11 @@ include './includes/header.php'
                 <span class="inline-block px-5 py-2 rounded-full bg-white/20 backdrop-blur text-white">
                     Luxury Beauty Experience
                 </span>
-                <h1 class="text-white text-5xl lg:text-7xl mt-8 leading-tight min-h-[120px]">
+                <h1 class="text-white text-4xl md:text-5xl lg:text-6xl mt-8 leading-tight min-h-[120px]">
                     <span id="heroText" data-text="Discover Your Most Beautiful Self"></span>
                     <span class="text-primary animate-pulse">|</span>
                 </h1>
-                <p class="text-white/90 text-lg mt-6 max-w-xl">
+                <p class="text-white/90 text-base lg:text-[17px] mt-6 max-w-xl">
                     Premium hair, beauty, skin care and wellness treatments designed to enhance your natural elegance.
                 </p>
             </div>
@@ -35,17 +34,17 @@ include './includes/header.php'
         <div class="grid lg:grid-cols-2 gap-16 xl:gap-24 items-center">
             <!-- Image -->
             <div class="relative">
-                <div class="absolute -top-6 -left-6 w-full h-full border-2 border-[#C48B5F] rounded-[32px]">
+                <div class="absolute -bottom-6 -left-6 w-48 h-48 bg-primary/10 rounded-full blur-3xl">
                 </div>
                 <img src="./assets/img/main-slider/slide2.jpg"
                     alt="About Us"
-                    class="relative z-10 w-full h-[500px] lg:h-[650px] object-cover rounded-[32px] shadow-2xl" data-aos="fade-right">
+                    class="relative z-10 w-full h-[500px] lg:h-[650px] object-cover rounded-[36px] shadow-[0_30px_70px_rgba(0,0,0,0.18)] hover:scale-[1.01] transition duration-500" data-aos="fade-right">
                 <!-- Floating Experience Card -->
-                <div class="absolute bottom-8 right-8 z-20 bg-white rounded-3xl shadow-xl px-8 py-5">
-                    <h4 class="text-3xl font-bold text-primary">
+                <div class="absolute bottom-8 right-8 z-20 bg-white/90 backdrop-blur-xl rounded-[28px] shadow-2xl px-8 py-6 border border-white/50">
+                    <h4 class="text-4xl font-bold text-primary leading-none">
                         10+
                     </h4>
-                    <p class="text-muted text-sm">
+                    <p class="text-muted text-sm mt-2 tracking-wide uppercase">
                         Years Experience
                     </p>
                 </div>
@@ -55,7 +54,7 @@ include './includes/header.php'
                 <span class="uppercase tracking-[4px] text-primary font-semibold text-sm">
                     Welcome To
                 </span>
-                <h2 class="mt-4 text-4xl lg:text-5xl font-semibold text-gray-900 leading-tight" data-aos="fade-up">
+                <h2 class="mt-4 text-3xl md:text-4xl lg:text-[42px] font-semibold text-gray-900 leading-tight" data-aos="fade-up">
                     Professional Elegance Beauty Salon
                 </h2>
                 <!-- Separator -->
@@ -64,52 +63,40 @@ include './includes/header.php'
                         <i class="flaticon-spa text-primary"></i>
                     </div>
                 </div>
-                <p class="mt-8 text-lg text-gray-600 leading-8">
+                <p class="mt-8 text-base lg:text-[17px] text-gray-600 leading-8">
                     We provide the highest quality and effective beauty
                     treatments in our salon to suit your schedule and needs.
                     All information about you and your treatments will be
                     kept safe, confidential and secure.
                 </p>
-                <p class="mt-6 text-lg text-gray-600 leading-8">
+                <p class="mt-6 text-base lg:text-[17px] text-gray-600 leading-8">
                     Our qualified beauticians, nail technicians and beauty
                     therapists deliver exceptional service with a focus on
                     professionalism, comfort and customer satisfaction.
                 </p>
                 <!-- Features -->
                 <div class="grid grid-cols-2 gap-4 sm:gap-5 mt-10">
-                    <div class="flex items-center gap-3">
-                        <div
-                            class="w-10 h-10 rounded-full bg-[#C48B5F]/10 flex items-center justify-center">
-                            <i class="ri-check-line text-primary"></i>
-                        </div>
-                        <span class="font-medium">
-                            Expert Beauticians
-                        </span>
+
+                    <div class="feature-box">
+                        <i class="ri-scissors-line"></i>
+                        <span>Expert Beauticians</span>
                     </div>
-                    <div class="flex items-center gap-3">
-                        <div class="w-10 h-10 rounded-full bg-[#C48B5F]/10 flex items-center justify-center">
-                            <i class="ri-check-line text-primary"></i>
-                        </div>
-                        <span class="font-medium">
-                            Premium Products
-                        </span>
+
+                    <div class="feature-box">
+                        <i class="ri-vip-crown-line"></i>
+                        <span>Premium Products</span>
                     </div>
-                    <div class="flex items-center gap-3">
-                        <div class="w-10 h-10 rounded-full bg-[#C48B5F]/10 flex items-center justify-center">
-                            <i class="ri-check-line text-primary"></i>
-                        </div>
-                        <span class="font-medium">
-                            Luxury Treatments
-                        </span>
+
+                    <div class="feature-box">
+                        <i class="ri-heart-pulse-line"></i>
+                        <span>Luxury Treatments</span>
                     </div>
-                    <div class="flex items-center gap-3">
-                        <div class="w-10 h-10 rounded-full bg-[#C48B5F]/10 flex items-center justify-center">
-                            <i class="ri-check-line text-primary"></i>
-                        </div>
-                        <span class="font-medium">
-                            Personalized Care
-                        </span>
+
+                    <div class="feature-box">
+                        <i class="ri-user-heart-line"></i>
+                        <span>Personalized Care</span>
                     </div>
+
                 </div>
                 <!-- Button -->
                 <div class="text-center mt-12">
@@ -131,7 +118,7 @@ include './includes/header.php'
             <span class="uppercase tracking-[4px] text-primary-dark font-semibold text-sm">
                 Our Expertise
             </span>
-            <h2 class="mt-4 text-4xl lg:text-5xl font-semibold text-gray-900" data-aos="fade-up">
+            <h2 class="mt-4 text-3xl md:text-4xl lg:text-[42px] font-semibold text-gray-900" data-aos="fade-up">
                 Luxury Beauty Services
             </h2>
             <div class="mt-5">
@@ -139,7 +126,7 @@ include './includes/header.php'
                     <i class="flaticon-spa text-primary"></i>
                 </div>
             </div>
-            <p class="mt-6 text-gray-600 text-lg">
+            <p class="mt-6 text-gray-600 text-base lg:text-[17px]">
                 Discover premium beauty and wellness treatments tailored
                 to enhance your natural elegance.
             </p>
@@ -249,7 +236,7 @@ include './includes/header.php'
                 class="uppercase tracking-[4px] text-primary font-semibold text-sm">
                 Exclusive Offers
             </span>
-            <h2 class="mt-4 text-4xl lg:text-5xl font-semibold text-gray-900" data-aos="fade-up">
+            <h2 class="mt-4 text-3xl md:text-4xl lg:text-[42px] font-semibold text-gray-900" data-aos="fade-up">
                 Beauty Promotions You'll Love
             </h2>
         </div>
@@ -271,11 +258,11 @@ include './includes/header.php'
                                         FEATURED OFFER
                                     </span>
 
-                                    <h2 class="mt-6 text-4xl lg:text-5xl font-semibold text-gray-900">
+                                    <h2 class="mt-6 text-3xl md:text-4xl lg:text-[42px] font-semibold text-gray-900">
                                         Hot Stone Massage
                                     </h2>
 
-                                    <p class="mt-6 text-lg text-gray-600 leading-8">
+                                    <p class="mt-6 text-base lg:text-[17px] text-gray-600 leading-8">
                                         Experience deep relaxation with our luxurious
                                         Hot Stone Massage.
                                     </p>
@@ -339,11 +326,11 @@ include './includes/header.php'
                                         FEATURED OFFER
                                     </span>
 
-                                    <h2 class="mt-6 text-4xl lg:text-5xl font-semibold text-gray-900">
+                                    <h2 class="mt-6 text-3xl md:text-4xl lg:text-[42px] font-semibold text-gray-900">
                                         Luxury Facial
                                     </h2>
 
-                                    <p class="mt-6 text-lg text-gray-600 leading-8">
+                                    <p class="mt-6 text-base lg:text-[17px] text-gray-600 leading-8">
                                         Rejuvenate your skin with our signature
                                         luxury facial treatment.
                                     </p>

@@ -1,41 +1,7 @@
 <?php
 include './includes/header.php'
 ?>
-<style>
-    .terms-nav {
-        display: inline-flex;
-        align-items: center;
-        gap: 10px;
-        padding: 14px 28px;
-        border-radius: 999px;
-        border: 1px solid var(--primary);
-        color: var(--primary);
-        font-weight: 600;
-        transition: .35s ease;
-        flex-shrink: 0;
-    }
 
-    .terms-nav:hover {
-        background: var(--primary);
-        color: #fff;
-    }
-
-    .active-terms-nav {
-        background: linear-gradient(135deg,
-                var(--primary),
-                var(--primary-light));
-        color: #fff;
-        border-color: transparent;
-    }
-
-    .scrollbar-hide::-webkit-scrollbar {
-        display: none;
-    }
-
-    .scrollbar-hide {
-        scrollbar-width: none;
-    }
-</style>
 <div
     class="sticky top-24 z-40 bg-white/95 backdrop-blur-xl border-b border-gray-100 shadow-sm" data-aos="fade-down"
     data-aos-duration="800">
@@ -328,34 +294,7 @@ include './includes/header.php'
     </div>
 
 </section>
-<script>
-    const sections = document.querySelectorAll("section[id]");
-    const navLinks = document.querySelectorAll(".terms-nav");
 
-    const observer = new IntersectionObserver(
-        (entries) => {
-            entries.forEach((entry) => {
-
-                if (entry.isIntersecting) {
-
-                    navLinks.forEach(link => {
-                        link.classList.remove("active-terms-nav");
-
-                        if (
-                            link.getAttribute("href") === "#" + entry.target.id
-                        ) {
-                            link.classList.add("active-terms-nav");
-                        }
-                    });
-                }
-            });
-        }, {
-            threshold: 0.3
-        }
-    );
-
-    sections.forEach(section => observer.observe(section));
-</script>
 <?php
 include './includes/footer.php'
 ?>

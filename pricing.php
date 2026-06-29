@@ -21,11 +21,11 @@ include './includes/header.php'
                     Professional Beauty Treatments
                 </span>
                 <!-- Title -->
-                <h1 class="heading-font text-white text-5xl md:text-6xl lg:text-7xl mt-6 leading-tight" data-aos="fade-up" data-aos-delay="100">
+                <h1 class="heading-font text-white text-4xl md:text-5xl lg:text-6xl mt-6 leading-tight" data-aos="fade-up" data-aos-delay="100">
                     Price List
                 </h1>
                 <!-- Description -->
-                <p class="hidden lg:block text-white/80 text-lg lg:text-xl mt-6 max-w-2xl leading-8" data-aos="fade-up" data-aos-delay="200">
+                <p class="hidden lg:block text-white/80 text-base lg:text-[17px] mt-6 max-w-2xl leading-8" data-aos="fade-up" data-aos-delay="200">
                     Discover our complete range of beauty, skincare,
                     nail, facial, massage and wellness treatments
                     with transparent pricing.
@@ -315,7 +315,7 @@ include './includes/header.php'
                     Ready To Feel Beautiful?
                 </h2>
                 <p
-                    class="max-w-2xl mx-auto mt-6 text-white/80 text-lg">
+                    class="max-w-2xl mx-auto mt-6 text-white/80 text-base lg:text-[17px]">
                     Whether you're preparing for a special occasion
                     or simply treating yourself, our beauty experts
                     are here to help.

@@ -29,11 +29,11 @@ include './includes/header.php'
                     Our Expertise
                 </span>
                 <!-- Title -->
-                <h1 class="heading-font text-white text-5xl md:text-6xl lg:text-7xl mt-6 leading-tight">
+                <h1 class="heading-font text-white text-4xl md:text-5xl lg:text-6xl mt-6 leading-tight">
                     Luxury Beauty Services
                 </h1>
                 <!-- Description -->
-                <p class="text-white/80 text-lg lg:text-xl mt-6 max-w-2xl leading-8">
+                <p class="text-white/80 text-base lg:text-[17px] mt-6 max-w-2xl leading-8">
                     Discover premium beauty and wellness treatments tailored
                     to enhance your natural elegance.
                 </p>

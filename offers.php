@@ -29,11 +29,11 @@ include './includes/header.php'
                     Exclusive Offers
                 </span>
                 <!-- Title -->
-                <h1 class="heading-font text-white text-5xl md:text-6xl lg:text-7xl mt-6 leading-tight">
+                <h1 class="heading-font text-white text-4xl md:text-5xl lg:text-6xl mt-6 leading-tight">
                     Beauty Promotions You'll Love
                 </h1>
                 <!-- Description -->
-                <p class="hidden lg:block text-white/80 text-lg lg:text-xl mt-6 max-w-2xl leading-8">
+                <p class="hidden lg:block text-white/80 text-base lg:text-[17px] mt-6 max-w-2xl leading-8">
                     Discover premium beauty and wellness treatments tailored
                     to enhance your natural elegance.
                 </p>
@@ -62,11 +62,11 @@ include './includes/header.php'
                                         FEATURED OFFER
                                     </span>
 
-                                    <h2 class="mt-6 text-4xl lg:text-5xl font-semibold text-gray-900">
+                                    <h2 class="mt-6 text-3xl md:text-4xl lg:text-[42px] font-semibold text-gray-900">
                                         Hot Stone Massage
                                     </h2>
 
-                                    <p class="mt-6 text-lg text-gray-600 leading-8">
+                                    <p class="mt-6 text-base lg:text-[17px] text-gray-600 leading-8">
                                         Experience deep relaxation with our luxurious
                                         Hot Stone Massage.
                                     </p>
@@ -130,11 +130,11 @@ include './includes/header.php'
                                         FEATURED OFFER
                                     </span>
 
-                                    <h2 class="mt-6 text-4xl lg:text-5xl font-semibold text-gray-900">
+                                    <h2 class="mt-6 text-3xl md:text-4xl lg:text-[42px] font-semibold text-gray-900">
                                         Luxury Facial
                                     </h2>
 
-                                    <p class="mt-6 text-lg text-gray-600 leading-8">
+                                    <p class="mt-6 text-base lg:text-[17px] text-gray-600 leading-8">
                                         Rejuvenate your skin with our signature
                                         luxury facial treatment.
                                     </p>
@@ -204,7 +204,7 @@ include './includes/header.php'
                 More Offers
             </span>
 
-            <h2 class="heading-font text-4xl lg:text-5xl text-gray-900 mt-5">
+            <h2 class="heading-font text-3xl md:text-4xl lg:text-[42px] text-gray-900 mt-5">
                 Our Other Offers
             </h2>
 
